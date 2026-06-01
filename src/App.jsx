@@ -56,7 +56,9 @@ function App() {
 <div className="button-container">
   <button
     className="bible-btn pdf-btn>ACV</button>"
-    onClick={() => window.open("/pdfs/ACV.pdf", "_blank")}
+    onClick={() =>
+    window.open(`${import.meta.env.BASE_URL}pdfs/ACV.pdf`, "_blank")
+  }
   >
     ACV
   </button>
