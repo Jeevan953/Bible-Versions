@@ -56,65 +56,63 @@ function App() {
 <div className="button-container">
   <button
     className="bible-btn pdf-btn>ACV</button>"
-    onClick={() =>
-    window.open(`${import.meta.env.BASE_URL}pdfs/ACV.pdf`, "_blank")
-  }
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/ACV.pdf`, "_blank")}
   >
     ACV
   </button>
 
   <button
     className="bible-btn pdf-btn>AKJV</button>"
-    onClick={() => window.open("/pdfs/AKJV.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/AKJV.pdf`, "_blank")}
   >
     AKJV
   </button>
 
   <button
     className="bible-btn pdf-btn>ASV</button>"
-    onClick={() => window.open("/pdfs/ASV.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/ASV.pdf`, "_blank")}
   >
     ASV
   </button>
 
    <button
     className="bible-btn pdf-btn>AMPC</button>"
-    onClick={() => window.open("/pdfs/AMPC.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/AMPC.pdf`, "_blank")}
   >
     AMPC
   </button>
 
   <button
     className="bible-btn pdf-btn>AAT_1927</button>"
-    onClick={() => window.open("/pdfs/AAT-1927.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/AAT-1927.pdf`, "_blank")}
   >
     AAT-1927
   </button>
 
  <button
     className="bible-btn pdf-btn>Andrews Bible 1977</button>"
-    onClick={() => window.open("/pdfs/Andrews Bible 1977.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Anderws Bible 1977.pdf`, "_blank")}
   >
     Andrews Bible 1977
   </button> 
 
- <button
+ <button 
     className="bible-btn pdf-btn>Anindilyakwa Bible</button>"
-    onClick={() => window.open("/pdfs/Anindilyakwa Bible.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Anindilyakwa Bible.pdf`, "_blank")}
   >
     Anindilyakwa Bible
   </button>
 
 <button
     className="bible-btn pdf-btn>Bartlett Bible 1886-Vol.1-2</button>"
-    onClick={() => window.open("/pdfs/Bartlett Bible 1886-Vol.1-2.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Bartlett Bible 1886-Vol.1-2.pdf`, "_blank")}
   >
     Bartlett Bible 1886-Vol.1-2
   </button>
 
   <button
     className="bible-btn pdf-btn>Berean Standard Bible</button>"
-    onClick={() => window.open("/pdfs/Berean Standard Bible.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Berean Standard Bible.pdf`, "_blank")}
   >
     Berean Standard Bible
   </button>
