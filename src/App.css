@@ -298,7 +298,7 @@ body::after {
   margin-bottom: 25px;
   position: relative;
   display: inline-block;
-  left: 20%;
+  left: 30%;
   transform: translateX(-50%);
   text-shadow:
     0 0 10px rgba(255, 215, 0, 0.6),
