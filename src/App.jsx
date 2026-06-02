@@ -174,7 +174,7 @@ function App() {
   </button>
 
   <button
-  className="pdf-btn"
+  className="bible-btn pdf-btn>CPB</button>"
   onClick={() =>
     window.open(
       "https://1drv.ms/b/c/7eb51b35f3576b65/IQCzP1Oy48tnT4fGX-_b6762AUpF52eCKDjiroVG61m4Fsc?e=FUuIXa", "_blank")}
