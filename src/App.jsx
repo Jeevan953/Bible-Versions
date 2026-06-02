@@ -91,7 +91,7 @@ function App() {
 
  <button
     className="bible-btn pdf-btn>Andrews Bible 1977</button>"
-    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Anderws Bible 1977.pdf`, "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Andrews Bible 1977.pdf`, "_blank")}
   >
     Andrews Bible 1977
   </button> 
@@ -173,12 +173,14 @@ function App() {
     BOY
   </button>
 
- <button
-    className="bible-btn pdf-btn>CPB</button>"
-    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/CPB.pdf`, "_blank")}
-  >
-    CPB
-  </button>
+  <button
+  className="pdf-btn"
+  onClick={() =>
+    window.open(
+      "https://1drv.ms/b/c/7eb51b35f3576b65/IQCzP1Oy48tnT4fGX-_b6762AUpF52eCKDjiroVG61m4Fsc?e=FUuIXa", "_blank")}
+>
+  Cambridge Paragraph Bible (CPB)
+</button>
 
   <button
     className="bible-btn pdf-btn>CPDV</button>"
