@@ -358,8 +358,7 @@ body::after {
 
  .cpb-btn {
   position: relative;
-  padding: 10px 18px;
-  background: #fff;
+  background: #db0b0b;
   color: #333;
   border: 2px solid transparent;
   border-radius: 10px;
