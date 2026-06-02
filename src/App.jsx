@@ -119,98 +119,98 @@ function App() {
 
  <button
     className="bible-btn pdf-btn>BRB</button>"
-    onClick={() => window.open("/pdfs/BRB.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/BRB.pdf`, "_blank")}
   >
     BRB
   </button>
 
   <button
     className="bible-btn pdf-btn>BSB</button>"
-    onClick={() => window.open("/pdfs/BSB.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/BSB.pdf`, "_blank")}
   >
     BSB
   </button>
 
  <button
     className="bible-btn pdf-btn>BSB-Concordance</button>"
-    onClick={() => window.open("/pdfs/BSB-Concordance.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/BSB-Concordance.pdf`, "_blank")}
   >
     BSB-Concordance
   </button>
 
  <button
     className="bible-btn pdf-btn>Bible in Basic English</button>"
-    onClick={() => window.open("/pdfs/Bible in Basic English.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Bible in Basic English.pdf`, "_blank")}
   >
     Bible in Basic English
   </button>
 
  <button
     className="bible-btn pdf-btn>Bible in Modern English</button>"
-    onClick={() => window.open("/pdfs/Bible in Modern English.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Bible in Modern English.pdf`, "_blank")}
   >
     Bible in Modern English
   </button>
 
  <button
     className="bible-btn pdf-btn>Bible in Poem</button>"
-    onClick={() => window.open("/pdfs/Bible in Poem.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Bible in Poem.pdf`, "_blank")}
   >
     Bible in Poem
   </button>
 
  <button
     className="bible-btn pdf-btn>Brenton Septuagint Translation</button>"
-    onClick={() => window.open("/pdfs/Brenton Septuagint Translation.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Brenton Septuagint Translation.pdf`, "_blank")}
   >
     Brenton Septuagint Translation
   </button>
 
  <button
     className="bible-btn pdf-btn>BOY</button>"
-    onClick={() => window.open("/pdfs/BOY.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/BOY.pdf`, "_blank")}
   >
     BOY
   </button>
 
  <button
     className="bible-btn pdf-btn>CPB</button>"
-    onClick={() => window.open("/pdfs/CPB.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/CPB.pdf`, "_blank")}
   >
     CPB
   </button>
 
   <button
     className="bible-btn pdf-btn>CPDV</button>"
-    onClick={() => window.open("/pdfs/CPDV.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/CPDV.pdf`, "_blank")}
   >
     CPDV
   </button> 
 
 <button
     className="bible-btn pdf-btn>CSB</button>"
-    onClick={() => window.open("/pdfs/CSB.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/CSB.pdf`, "_blank")}
   >
     CSB
   </button> 
 
 <button
     className="bible-btn pdf-btn>CEB-Genesis</button>"
-    onClick={() => window.open("/pdfs/CEB-Genesis.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/CEB-Genesis.pdf`, "_blank")}
   >
     CEB-Genesis
   </button> 
 
 <button
     className="bible-btn pdf-btn>Composition of Genesis</button>"
-    onClick={() => window.open("/pdfs/Composition of Genesis .pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Composition of Genesis.pdf`, "_blank")}
   >
     Composition of Genesis
   </button> 
 
 <button
     className="bible-btn pdf-btn>Promise Bible</button>"
-    onClick={() => window.open("/pdfs/Promise Bible.pdf", "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Promise Bible.pdf`, "_blank")}
   >
     Promise Bible
   </button> 
