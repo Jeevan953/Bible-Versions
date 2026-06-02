@@ -217,6 +217,62 @@ function App() {
     Promise Bible
   </button> 
 
+<button
+    className="bible-btn pdf-btn>CEVUK</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/CEVUK.pdf`, "_blank")}
+  >
+    CEVUK
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Concordant Version-OT 2015</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Concordant Version-OT 2015.pdf`, "_blank")}
+  >
+    Concordant Version-OT 2015
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Confraternity Gala-Apost</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Confraternity Gala-Apost.pdf`, "_blank")}
+  >
+    Confraternity Gala-Apost
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Darby Translation</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Darby Translation.pdf`, "_blank")}
+  >
+    Darby Translation
+  </button>
+
+<button
+    className="bible-btn pdf-btn>DASV</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/DASV.pdf`, "_blank")}
+  >
+    DASV
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Douay Rheims Version</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Douay Rheims Version .pdf`, "_blank")}
+  >
+    Douay Rheims Version
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Earliest English Version Vol I.pdf</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Earliest English Version Vol I.pdf`, "_blank")}
+  >
+    Earliest English Version Vol I.pdf
+  </button>
+
+<button
+    className="bible-btn pdf-btn>ERV</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/ERV.pdf`, "_blank")}
+  >
+    ERV
+  </button>
+
 </div>
  
       <h2 className="psalm-title">📖 Psalms</h2>
