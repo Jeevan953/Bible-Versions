@@ -34,6 +34,15 @@ function App() {
     "IRV-2017",
   ];
 
+  const newTestament = [
+  "Matthew",
+  "Mark",
+  "Luke",
+  "John",
+  "Acts",
+  "Romans",
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -44,6 +53,9 @@ function App() {
 
   const [selectedVersion, setSelectedVersion] = useState("");
   const [showCCB, setShowCCB] = useState(false);
+  const [showNT, setShowNT] = useState(false);
+  const [showOT, setShowOT] = useState(false);
+
   return (
     <div className="app">
      <h1 className="title">Bible Versions</h1>
@@ -196,6 +208,25 @@ function App() {
     >
       Old Testament
     </button>
+  </div>
+)}
+
+{showNT && (
+  <div className="books-menu">
+    {newTestament.map(book => (
+      <button
+        key={book}
+        className="bible-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/New Testament/${book}.pdf`,
+            "_blank"
+          )
+        }
+      >
+        {book}
+      </button>
+    ))}
   </div>
 )}
 
