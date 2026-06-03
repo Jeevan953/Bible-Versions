@@ -43,7 +43,7 @@ function App() {
 };
 
   const [selectedVersion, setSelectedVersion] = useState("");
-
+  const [showCCB, setShowCCB] = useState(false);
   return (
     <div className="app">
      <h1 className="title">Bible Versions</h1>
@@ -172,6 +172,32 @@ function App() {
   >
     BOY
   </button>
+
+  <button
+  className="bible-btn"
+  onClick={() => setShowCCB(!showCCB)}
+>
+  Christian Community Bible (CCB)
+</button>
+  
+  {showCCB && (
+  <div className="ccb-menu">
+  <button
+    className="bible-btn pdf-btn>CCB</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New Testament/CCB.pdf`, "_blank")}
+  >
+    New Testament
+  </button>
+
+<button
+      className="bible-btn"
+      onClick={() =>
+        window.open(`${import.meta.env.BASE_URL}pdfs/Old Testament/CCB.pdf`, "_blank")}
+    >
+      Old Testament
+    </button>
+  </div>
+)}
 
   <button
   className="bible-btn pdf-btn cpb-btn"

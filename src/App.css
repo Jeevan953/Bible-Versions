@@ -367,5 +367,10 @@ body::after {
   z-index: 1;
 }
 
- 
+ .ccb-menu {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
   
