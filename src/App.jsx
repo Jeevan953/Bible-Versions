@@ -205,20 +205,19 @@ function App() {
   
   {showCCB && (
   <div className="ccb-menu">
-  <button
-    className="bible-btn pdf-btn>CCB</button>"
-    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New Testament/CCB.pdf`, "_blank")}
-  >
-    New Testament
-  </button>
+   <button
+  className="bible-btn"
+  onClick={() => setShowNT(!showNT)}
+>
+  New Testament
+</button>
 
-<button
-      className="bible-btn"
-      onClick={() =>
-        window.open(`${import.meta.env.BASE_URL}pdfs/Old Testament/CCB.pdf`, "_blank")}
-    >
-      Old Testament
-    </button>
+ <button
+  className="bible-btn"
+  onClick={() => setShowOT(!showOT)}
+>
+  Old Testament
+</button>
   </div>
 )}
 
