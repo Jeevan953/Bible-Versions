@@ -35,12 +35,23 @@ function App() {
   ];
 
   const newTestament = [
-  "Matthew",
-  "Mark",
-  "Luke",
-  "John",
-  "Acts",
-  "Romans",
+  { name: "Matthew", file: "Matthew.pdf" },
+  { name: "Mark", file: "Mark.pdf" },
+  { name: "Luke", file: "Luke.pdf" },
+  { name: "John", file: "John.pdf" },
+  { name: "Acts", file: "Acts.pdf" },
+  { name: "Romans", file: "Romans.pdf" },
+  { name: "1 & 2 Corinthians", file: "1 & 2 Corinthians.pdf" },
+  { name: "Galatians", file: "Galatians.pdf" },
+  { name: "Ephesians", file: "Ephesians.pdf" },
+  { name: "Hebrews", file: "Hebrews.pdf" },
+  { name: "James", file: "James.pdf" },
+  { name: "1 - 3 John-Jude", file: "1 - 3 John-Jude.pdf" },
+  { name: "1 & 2 Timothy & Titus", file: "1 & 2 Timothy & Titus.pdf" },
+  { name: "Philemon & 1 -2 Thessalonians", file: "Philemon & 1 -2 Thessalonians.pdf" },
+  { name: "Philippians & Colossians", file: "Philippians & Colossians.pdf" },
+  { name: "1 & 2 Peter", file: "1 & 2 Peter.pdf" },
+  { name: "Revelation", file: "Revelation.pdf" },
 ];
 
  const getWordClass = (word) => {
@@ -214,19 +225,19 @@ function App() {
 {showNT && (
   <div className="books-menu">
     {newTestament.map(book => (
-      <button
-        key={book}
-        className="bible-btn"
-        onClick={() =>
-          window.open(
-            `${import.meta.env.BASE_URL}pdfs/New Testament/${book}.pdf`,
-            "_blank"
-          )
-        }
-      >
-        {book}
-      </button>
-    ))}
+  <button
+    key={book.name}
+    className="bible-btn"
+    onClick={() =>
+      window.open(
+        `${import.meta.env.BASE_URL}pdfs/New Testament/${book.file}`,
+        "_blank"
+      )
+    }
+  >
+    {book.name}
+  </button>
+))}
   </div>
 )}
 
