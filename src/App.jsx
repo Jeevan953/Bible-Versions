@@ -54,6 +54,41 @@ function App() {
   { name: "Revelation", file: "Revelation.pdf" },
 ];
 
+const oldTestament = [
+  { name: "Genesis", file: "Genesis.pdf" },
+  { name: "Exodus", file: "Exodus.pdf" }, // if you add it later
+  { name: "Leviticus", file: "Leviticus.pdf" },
+  { name: "Numbers", file: "Numbers.pdf" },
+  { name: "Deuteronomy", file: "Deuteronomy.pdf" },
+  { name: "Joshua", file: "Joshua.pdf" },
+  { name: "Judges", file: "Judges.pdf" },
+  { name: "Ruth & Lamentation", file: "Ruth & Lamentation.pdf" },
+  { name: "1 Samuel", file: "1 Samuel.pdf" },
+  { name: "2 Samuel", file: "2 Samuel.pdf" },
+  { name: "1 Kings", file: "1 Kings.pdf" },
+  { name: "2 Kings", file: "2 Kings.pdf" },
+  { name: "1 & 2 Chronicles", file: "1 & 2 Chronicles.pdf" },
+  { name: "Ezra", file: "Ezra.pdf" },
+  { name: "Nehemiah", file: "Nehemiah.pdf" },
+  { name: "Tobit", file: "Tobit.pdf" },
+  { name: "Judith", file: "Judith.pdf" },
+  { name: "Esther", file: "Esther.pdf" },
+  { name: "1 & 2 Maccabees", file: "1 & 2 Maccabees.pdf" },
+  { name: "Job", file: "Job.pdf" },
+  { name: "Psalms", file: "Psalms.pdf" },
+  { name: "Proverbs", file: "Proverbs.pdf" },
+  { name: "Ecclesiastes", file: "Ecclesiastes.pdf" },
+  { name: "Song of Songs", file: "Song of Songs.pdf" },
+  { name: "Wisdom", file: "Wisdom.pdf" },
+  { name: "Sirach", file: "Sirach.pdf" },
+  { name: "Isaiah", file: "Isaiah.pdf" },
+  { name: "Jeremiah", file: "Jeremiah.pdf" },
+  { name: "Baruch", file: "Baruch.pdf" },
+  { name: "Ezekiel", file: "Ezekiel.pdf" },
+  { name: "Daniel", file: "Daniel.pdf" },
+  { name: "Hosea-Malachi", file: "Hosea-Malachi.pdf" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -237,6 +272,25 @@ function App() {
     {book.name}
   </button>
 ))}
+  </div>
+)}
+
+{showOT && (
+  <div className="books-menu">
+    {oldTestament.map(book => (
+      <button
+        key={book.name}
+        className="bible-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Old Testament/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
   </div>
 )}
 
