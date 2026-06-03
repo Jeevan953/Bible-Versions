@@ -89,6 +89,36 @@ const oldTestament = [
   { name: "Hosea-Malachi", file: "Hosea-Malachi.pdf" },
 ];
 
+const aybBooks = [
+  { name: "Genesis", file: "Genesis.pdf" },
+  { name: "Exodus 1-18", file: "Exodus 1-18.pdf" },
+  { name: "Numbers 1-20",
+    url: "https://1drv.ms/b/c/7eb51b35f3576b65/IQDZrEskFpnFSpdr_Y78t5BkAR4kYJcjarnsKbGxxmPWH_Y?e=OCNrTm" },
+  { name: "Ecclesiastes",
+    url: "https://1drv.ms/b/c/7eb51b35f3576b65/IQDf2WcbiQXaTotdMsLTvzWHAYtJOXcwMFk6jatGVEiVVZc?e=XYitjG" },
+  { name: "Numbers 21-36", file: "Numbers 21-36.pdf" },
+  { name: "Joshua 1-12", file: "Joshua 1-12.pdf" },
+  { name: "Ruth", file: "Ruth.pdf" },
+  { name: "I Chronicles", file: "I Chronicles.pdf" },
+  { name: "II Chronicles", file: "II Chronicles.pdf" },
+  { name: "Ezra-Nehemiah", file: "Ezra-Nehemiah.pdf" },
+  { name: "Proverbs 10-31", file: "Proverbs 10-31.pdf" },
+  { name: "Isaiah 40-55", file: "Isaiah 40-55.pdf" },
+  { name: "Jeremiah", file: "Jeremiah.pdf" },
+  { name: "Jeremiah 21-36", file: "Jeremiah 21-36.pdf" },
+  { name: "Daniel", file: "Daniel .pdf" },
+  { name: "Hosea", file: "Hosea.pdf" },
+  { name: "Amos", file: "Amos.pdf" },
+  { name: "Haggai, Zechariah 1-8", file: "Haggai, Zechariah 1-8.pdf" },
+  { name: "I Maccabees", file: "I Maccabees.pdf" },
+  { name: "II Maccabees", file: "II Maccabees.pdf" },
+  { name: "Mark", file: "Mark.pdf" },
+  { name: "First Corinthians", file: "First Corinthians.pdf" },
+  { name: "Ephesians", file: "Ephesians.pdf" },
+  { name: "To the Hebrews", file: "To the Hebrews.pdf" },
+  { name: "Revelation", file: "Revelation.pdf" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -101,6 +131,7 @@ const oldTestament = [
   const [showCCB, setShowCCB] = useState(false);
   const [showNT, setShowNT] = useState(false);
   const [showOT, setShowOT] = useState(false);
+  const [showAYB, setShowAYB] = useState(false);
 
   return (
     <div className="app">
@@ -160,6 +191,33 @@ const oldTestament = [
   >
     Anindilyakwa Bible
   </button>
+
+<button
+  className="bible-btn"
+  onClick={() => setShowAYB(!showAYB)}
+>
+  Anchor Yale Bible (AYB)
+</button>
+
+{showAYB && (
+  <div className="books-menu">
+    {aybBooks.map(book => (
+      <button
+        key={book.name}
+        className="bible-btn"
+        onClick={() =>
+          window.open(
+            book.url ||
+            `${import.meta.env.BASE_URL}pdfs/AYB/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
 
 <button
     className="bible-btn pdf-btn>Bartlett Bible 1886-Vol.1-2</button>"
