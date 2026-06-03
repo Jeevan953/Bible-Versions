@@ -375,10 +375,10 @@ body::after {
   flex-wrap: wrap;
 }
 
- .books-menu {
-  width: 100%;
+.books-menu {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(4, 150px);
   gap: 10px;
+  justify-content: center;
   margin-top: 10px;
 }
