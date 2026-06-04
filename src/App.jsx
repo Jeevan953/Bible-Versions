@@ -452,6 +452,48 @@ const aybBooks = [
     ERV
   </button>
 
+<button
+    className="bible-btn pdf-btn>ERV-OT</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/ERV-OT.pdf`, "_blank")}
+  >
+    ERV-OT
+  </button>
+
+<button
+    className="bible-btn pdf-btn>ERV-WBTC</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/ERV-WBTC.pdf`, "_blank")}
+  >
+    ERV-WBTC
+  </button>
+
+<button
+    className="bible-btn pdf-btn>ESV</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/ESV.pdf`, "_blank")}
+  >
+    ESV
+  </button>
+
+<button
+    className="bible-btn pdf-btn>EVD-OT</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/EVD-OT.pdf`, "_blank")}
+  >
+    EVD-OT
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Exegeses Parallel Bible</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Exegeses Parallel Bible.pdf`, "_blank")}
+  >
+    Exegeses Parallel Bible
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Free Bible Version-FBV</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Free Bible Version-FBV.pdf`, "_blank")}
+  >
+    Free Bible Version-FBV
+  </button>
+
 </div>
  
       <h2 className="psalm-title">📖 Psalms</h2>
