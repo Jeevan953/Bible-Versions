@@ -676,19 +676,6 @@ const aybBooks = [
     The Jewish Bible
   </button>
 
- <button
-  key={book.name}
-  className="book-btn"
-  onClick={() =>
-    window.open(
-      book.url || `${import.meta.env.BASE_URL}pdfs/AYB/${book.file}`,
-      "_blank"
-    )
-  }
->
-  {book.name}
-</button>
-
 </div>
  
       <h2 className="psalm-title">📖 Psalms</h2>
