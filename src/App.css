@@ -381,5 +381,13 @@ body::after {
   gap: 10px;
   justify-content: center;
   margin-top: 10px;
-  color: #878282;
+}
+
+.book-btn {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
 }

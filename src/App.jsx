@@ -185,6 +185,13 @@ const aybBooks = [
     Andrews Bible 1977
   </button> 
 
+<button
+    className="bible-btn pdf-btn>An Improved Version</button>"
+    onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQAnhHAO1nzATJsdgmkj3L8ZAYq0LwH6QZq7XyAafVqxP6Y?e=C5G0xs", "_blank")}
+  >
+    An Improved Version
+  </button>
+
  <button 
     className="bible-btn pdf-btn>Anindilyakwa Bible</button>"
     onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Anindilyakwa Bible.pdf`, "_blank")}
@@ -493,6 +500,194 @@ const aybBooks = [
   >
     Free Bible Version-FBV
   </button>
+
+<button
+    className="bible-btn pdf-btn>Genesis</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Genesis.pdf`, "_blank")}
+  >
+    Genesis
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Genesis 1</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Genesis 1.pdf`, "_blank")}
+  >
+    Genesis 1
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Genesis & Exodus-Henry</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Genesis & Exodus-Henry.pdf`, "_blank")}
+  >
+    Genesis & Exodus-Henry
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Genesis--R.Crumb</button>"
+    onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQD3e4S1WqLVQ7BUkrAmRF7gAU2UTEuQN7wSFB3Ts_viU5I?e=eaGVNd", "_blank")}
+  >
+    Genesis--R.Crumb.pdf
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Genesis -Wade Woosung</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Genesis -Wade Woosung.pdf`, "_blank")}
+  >
+    Genesis -Wade Woosung
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Geneva Bible -1560</button>"
+    onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQBDf_12JfT8SbhXrln9-uSGATqHlUCGATgqSkfrSk4jVFk?e=9Xtb3C", "_blank")}
+  >
+    Geneva Bible -1560
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Geneva Bible-1599</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Geneva Bible-1599.pdf`, "_blank")}
+  >
+    Geneva Bible-1599
+  </button>
+
+<button
+    className="bible-btn pdf-btn>George Noyes Bible</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/George Noyes Bible.pdf`, "_blank")}
+  >
+    George Noyes Bible
+  </button>
+
+<button
+    className="bible-btn pdf-btn>God's Living Word</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/God's Living Word.pdf`, "_blank")}
+  >
+    God's Living Word
+  </button>
+
+<button
+    className="bible-btn pdf-btn>God's Word Translation</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/God's Word Translation.pdf`, "_blank")}
+  >
+    God's Word Translation
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Good News Bible</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Good News Bible.pdf`, "_blank")}
+  >
+    Good News Bible
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Gospel of Thomas</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Gospel of Thomas.pdf`, "_blank")}
+  >
+    Gospel of Thomas
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Gospels by Francis Patrick</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Gospels by Francis Patrick.pdf`, "_blank")}
+  >
+    Gospels by Francis Patrick
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Halley's Bible Handbook</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Halley's Bible Handbook.pdf`, "_blank")}
+  >
+    Halley's Bible Handbook
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Hebraic Roots Bible</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Hebraic Roots Bible.pdf`, "_blank")}
+  >
+    Hebraic Roots Bible
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Helen Spurrel Bible</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Helen Spurrel Bible.pdf`, "_blank")}
+  >
+    Helen Spurrel Bible
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Hieroglyphick-Bible</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Hieroglyphick-Bible.pdf`, "_blank")}
+  >
+    Hieroglyphick-Bible
+  </button>
+
+<button
+    className="bible-btn pdf-btn>HCSB</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/HCSB.pdf`, "_blank")}
+  >
+    HCSB
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Holy bible By kerr</button>"
+    onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQDWgvtNaRAVTaUfltwu1txWAW_eLDmpOrFHIkKyXr74dsI?e=8Qv1K3", "_blank")}
+  >
+    Holy bible By kerr
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Holy Bible  BYZ 2022</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Holy Bible  BYZ 2022.pdf`, "_blank")}
+  >
+    Holy Bible  BYZ 2022
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Holy Bible C Wordsworth</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Holy Bible C Wordsworth.pdf`, "_blank")}
+  >
+    Holy Bible C Wordsworth
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Holy Bible facsimile 1611</button>"
+    onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQDxzTZ53d3rSbWvtbaoIS3CAW71lAfZAxAyUryr5WuT-X8?e=CgvNNe", "_blank")}
+  >
+    Holy Bible facsimile 1611
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Holy Bible-In-Its-Original-Order</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Holy Bible-In-Its-Original-Order.pdf`, "_blank")}
+  >
+    Holy Bible-In-Its-Original-Order
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Holy Bible by  Denvir</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Holy Bible by  Denvir.pdf`, "_blank")}
+  >
+    Holy Bible by  Denvir
+  </button>
+
+<button
+    className="bible-btn pdf-btn>The Jewish Bible</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Jewish Bible.pdf`, "_blank")}
+  >
+    The Jewish Bible
+  </button>
+
+ <button
+  key={book.name}
+  className="book-btn"
+  onClick={() =>
+    window.open(
+      book.url || `${import.meta.env.BASE_URL}pdfs/AYB/${book.file}`,
+      "_blank"
+    )
+  }
+>
+  {book.name}
+</button>
 
 </div>
  
