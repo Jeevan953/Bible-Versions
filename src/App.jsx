@@ -86,7 +86,7 @@ const oldTestament = [
   { name: "Baruch", file: "Baruch.pdf" },
   { name: "Ezekiel", file: "Ezekiel.pdf" },
   { name: "Daniel", file: "Daniel.pdf" },
-  { name: "Hosea-Malachi", file: "Hosea-Malachi.pdf" },
+  { name: "Hosea-Malachi", file: "Hosea & Malachi.pdf" },
 ];
 
 const aybBooks = [
