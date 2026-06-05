@@ -24,7 +24,7 @@ function App() {
   ];
 
   const TamilVersions = [
-     "BSI",
+    "BSI",
     "RC Tamil",
     "WBTC",
     "Tamil Bible-1934",
@@ -119,6 +119,13 @@ const aybBooks = [
   { name: "Revelation", file: "Revelation.pdf" },
 ];
 
+  const jewishSchoolBible = [
+  { name: "VOL 1", file: "VOL 1.pdf" },
+  { name: "VOL 2", file: "VOL 2.pdf" },
+  { name: "VOL 3", file: "VOL 3.pdf" },
+  { name: "VOL 4", file: "VOL 4.pdf" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -132,6 +139,7 @@ const aybBooks = [
   const [showNT, setShowNT] = useState(false);
   const [showOT, setShowOT] = useState(false);
   const [showAYB, setShowAYB] = useState(false);
+  const [showJSB, setShowJSB] = useState(false);
 
   return (
     <div className="app">
@@ -216,6 +224,32 @@ const aybBooks = [
           window.open(
             book.url ||
             `${import.meta.env.BASE_URL}pdfs/AYB/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+ <button
+  className="bible-btn"
+  onClick={() => setShowJSB(!showJSB)}
+>
+  Benisch's Jewish School Bible
+</button>
+
+ {showJSB && (
+  <div className="books-menu">
+    {jewishSchoolBible.map(book => (
+      <button
+        key={book.name}
+        className="book-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Benisch's Jewish school Bible/${book.file}`,
             "_blank"
           )
         }
