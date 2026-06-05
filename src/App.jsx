@@ -414,30 +414,36 @@ const bibleInVerseBooks = [
   </div>
 )}
 
-<button
+ <button
   className="bible-btn"
   onClick={() => setShowBibleInVerse(!showBibleInVerse)}
 >
-  Bible in Verse
+  Bible in Verse (MSG/NIV)
 </button>
 
 {showBibleInVerse && (
-  <div className="books-menu">
-    {bibleInVerseBooks.map(book => (
-      <button
-        key={book.name}
-        className="book-btn"
-        onClick={() =>
-          window.open(
-            `${import.meta.env.BASE_URL}pdfs/Bible in Verse/${book.file}`,
-            "_blank"
-          )
-        }
-      >
-        {book.name}
-      </button>
-    ))}
-  </div>
+  <>
+    <h3 className="section-title">
+      Bible in Verse (MSG/NIV)
+    </h3>
+
+    <div className="books-menu">
+      {bibleInVerseBooks.map(book => (
+        <button
+          key={book.name}
+          className="book-btn"
+          onClick={() =>
+            window.open(
+              `${import.meta.env.BASE_URL}pdfs/Bible in Verse/${book.file}`,
+              "_blank"
+            )
+          }
+        >
+          {book.name}
+        </button>
+      ))}
+    </div>
+  </>
 )}
 
  <button
