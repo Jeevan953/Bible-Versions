@@ -393,11 +393,11 @@ body::after {
 }
 
 .submenu-title {
-  width: 100%;
+  width: 80%;
   text-align: center;
   color: white;
   margin-bottom: 15px;
-  font-size: 8px;
+  font-size: 10px;
 }
 
  
