@@ -126,6 +126,13 @@ const aybBooks = [
   { name: "VOL 4", file: "VOL 4.pdf" },
 ];
 
+ const modernSpeechBooks = [
+  { name: "Isaiah", file: "Isaiah.pdf" },
+  { name: "Jeremiah", file: "Jeremiah.pdf" },
+  { name: "Psalms", file: "Psalms.pdf" },
+  { name: "Job Proverbs Lament Ecclesiast", file: "Job Proverbs Lament Ecclesiast.pdf" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -140,6 +147,7 @@ const aybBooks = [
   const [showOT, setShowOT] = useState(false);
   const [showAYB, setShowAYB] = useState(false);
   const [showJSB, setShowJSB] = useState(false);
+  const [showModernSpeech, setShowModernSpeech] = useState(false);
 
   return (
     <div className="app">
@@ -308,6 +316,32 @@ const aybBooks = [
   >
     Bible in Modern English
   </button>
+
+   <button
+  className="bible-btn"
+  onClick={() => setShowModernSpeech(!showModernSpeech)}
+>
+  Bible in Modern Speech
+</button>
+
+  {showModernSpeech && (
+  <div className="books-menu">
+    {modernSpeechBooks.map(book => (
+      <button
+        key={book.name}
+        className="book-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Bible in Modern Speech/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
 
  <button
     className="bible-btn pdf-btn>Bible in Poem</button>"
