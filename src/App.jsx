@@ -133,6 +133,76 @@ const aybBooks = [
   { name: "Job Proverbs Lament Ecclesiast", file: "Job Proverbs Lament Ecclesiast.pdf" },
 ];
 
+const bibleInVerseBooks = [
+  { name: "Genesis", file: "Genesis.pdf" },
+  { name: "Exodus", file: "Exodus.pdf" },
+  { name: "Leviticus", file: "Leviticus.pdf" },
+  { name: "Numbers", file: "Numbers.pdf" },
+  { name: "Deuteronomy", file: "Deuteronomy.pdf" },
+  { name: "Joshua", file: "Joshua.pdf" },
+  { name: "Judges", file: "Judges.pdf" },
+  { name: "Ruth", file: "Ruth.pdf" },
+  { name: "1 Samuel", file: "1 Samuel.pdf" },
+  { name: "2 Samuel", file: "2 Samuel.pdf" },
+  { name: "1 Kings", file: "1 Kings.pdf" },
+  { name: "2 Kings", file: "2 Kings.pdf" },
+  { name: "1 Chronicles", file: "1 Chronicles.pdf" },
+  { name: "2 Chronicles", file: "2 Chronicles.pdf" },
+  { name: "Ezra", file: "Ezra.pdf" },
+  { name: "Nehemiah", file: "Nehemiah.pdf" },
+  { name: "Esther", file: "Esther.pdf" },
+  { name: "Job", file: "Job.pdf" },
+  { name: "Psalms", file: "Psalms.pdf" },
+  { name: "Proverbs", file: "Proverbs.pdf" },
+  { name: "Ecclesiastes", file: "Ecclesiastes.pdf" },
+  { name: "Song of Solomon", file: "Song Of Solomon.pdf" },
+  { name: "Isaiah", file: "Isaiah.pdf" },
+  { name: "Jeremiah", file: "Jeremiah.pdf" },
+  { name: "Lamentations", file: "Lamentations.pdf" },
+  { name: "Ezekiel", file: "Ezekiel.pdf" },
+  { name: "Daniel", file: "Daniel.pdf" },
+  { name: "Hosea", file: "Hosea.pdf" },
+  { name: "Joel", file: "Joel.pdf" },
+  { name: "Amos", file: "Amos.pdf" },
+  { name: "Obadiah", file: "Obadiah.pdf" },
+  { name: "Jonah", file: "Jonah.pdf" },
+  { name: "Micah", file: "Micah.pdf" },
+  { name: "Nahum", file: "Nahum.pdf" },
+  { name: "Habakkuk", file: "Habakkuk.pdf" },
+  { name: "Zephaniah", file: "Zephaniah.pdf" },
+  { name: "Haggai", file: "Haggai.pdf" },
+  { name: "Zechariah", file: "Zechariah.pdf" },
+  { name: "Malachi", file: "Malachi.pdf" },
+
+  { name: "Matthew", file: "Matthew.pdf" },
+  { name: "Mark", file: "Mark.pdf" },
+  { name: "Luke", file: "Luke.pdf" },
+  { name: "John", file: "John.pdf" },
+  { name: "Acts", file: "Acts.pdf" },
+  { name: "Romans", file: "Romans.pdf" },
+  { name: "1 Corinthians", file: "1 Corinthians.pdf" },
+  { name: "2 Corinthians", file: "2 Corinthians.pdf" },
+  { name: "Galatians", file: "Galatians.pdf" },
+  { name: "Ephesians", file: "Ephesians.pdf" },
+  { name: "Philippians", file: "Philippians.pdf" },
+  { name: "Colossians", file: "Colossians.pdf" },
+  { name: "1 Thessalonians", file: "1 Thessalonians.pdf" },
+  { name: "2 Thessalonians", file: "2 Thessalonians.pdf" },
+  { name: "1 Timothy", file: "1 Timothy.pdf" },
+  { name: "2 Timothy", file: "2 Timothy.pdf" },
+  { name: "Titus", file: "Titus.pdf" },
+  { name: "Philemon", file: "Philemon.pdf" },
+  { name: "Hebrews", file: "Hebrews.pdf" },
+  { name: "James", file: "James.pdf" },
+  { name: "1 Peter", file: "1 Peter.pdf" },
+  { name: "2 Peter", file: "2 Peter.pdf" },
+  { name: "1 John", file: "1 John.pdf" },
+  { name: "2 John", file: "2 John.pdf" },
+  { name: "3 John", file: "3 John.pdf" },
+  { name: "Jude", file: "Jude.pdf" },
+  { name: "Revelation", file: "Revelation.pdf" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -148,6 +218,7 @@ const aybBooks = [
   const [showAYB, setShowAYB] = useState(false);
   const [showJSB, setShowJSB] = useState(false);
   const [showModernSpeech, setShowModernSpeech] = useState(false);
+  const [showBibleInVerse, setShowBibleInVerse] = useState(false);
 
   return (
     <div className="app">
@@ -333,6 +404,32 @@ const aybBooks = [
         onClick={() =>
           window.open(
             `${import.meta.env.BASE_URL}pdfs/Bible in Modern Speech/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
+  className="bible-btn"
+  onClick={() => setShowBibleInVerse(!showBibleInVerse)}
+>
+  Bible in Verse
+</button>
+
+{showBibleInVerse && (
+  <div className="books-menu">
+    {bibleInVerseBooks.map(book => (
+      <button
+        key={book.name}
+        className="book-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Bible in Verse/${book.file}`,
             "_blank"
           )
         }
