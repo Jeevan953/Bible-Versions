@@ -670,6 +670,13 @@ const aybBooks = [
   </button>
 
 <button
+    className="bible-btn pdf-btn>Holy Bible-Robert Young</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Holy Bible-Robert Young.pdf`, "_blank")}
+  >
+    Holy Bible-Robert Young
+  </button>
+
+<button
     className="bible-btn pdf-btn>The Jewish Bible</button>"
     onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Jewish Bible.pdf`, "_blank")}
   >

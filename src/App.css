@@ -377,7 +377,7 @@ body::after {
 
 .books-menu {
   display: grid;
-  grid-template-columns: repeat(3, 120px);
+  grid-template-columns: repeat(3, 100px);
   gap: 10px;
   justify-content: center;
   margin-top: 10px;
