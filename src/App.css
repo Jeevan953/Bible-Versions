@@ -391,3 +391,18 @@ body::after {
   padding: 12px;
   cursor: pointer;
 }
+
+.submenu-title {
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.books-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
