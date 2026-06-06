@@ -210,6 +210,12 @@ const bibleInVerseBooks = [
   { name: "VOL IV", file: "VOL-IV.pdf" },
 ];
 
+const boothroydFamilyBible = [
+  { name: "Vol 1", url: "https://1drv.ms/b/c/7eb51b35f3576b65/IQAKKbkJyavSTLTK0XKKCdF2AUX26PEdPNbTZ50u_dC6ZsI?e=JEJSqp" },
+  { name: "Vol 2", url: "https://1drv.ms/b/c/7eb51b35f3576b65/IQBPz-tsScOgR7lLFRshI1etAfEpV69IvippOZNZofgEt-0?e=rMEc06" },
+  { name: "Vol 3", url: `${import.meta.env.BASE_URL}pdfs/Boothroyd Family Bible/Vol 3.pdf`},
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -227,6 +233,7 @@ const bibleInVerseBooks = [
   const [showModernSpeech, setShowModernSpeech] = useState(false);
   const [showBibleInVerse, setShowBibleInVerse] = useState(false);
   const [showCharlesThompson, setShowCharlesThompson] = useState(false);
+  const [showBoothroyd, setShowBoothroyd] = useState(false);
 
   return (
     <div className="app">
@@ -472,6 +479,33 @@ const bibleInVerseBooks = [
   >
     BOY
   </button>
+
+<button
+  className="bible-btn"
+  onClick={() => setShowBoothroyd(!showBoothroyd)}
+>
+  Boothroyd Family Bible
+</button>
+
+{showBoothroyd && (
+  <div className="books-menu">
+    {boothroydFamilyBible.map(book => (
+      <button
+        key={book.name}
+        className="bible-btn"
+        onClick={() =>
+          window.open(
+            book.url ||
+            `${import.meta.env.BASE_URL}pdfs/Boothroyd/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
 
   <button
   className="bible-btn"
