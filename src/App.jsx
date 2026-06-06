@@ -203,6 +203,13 @@ const bibleInVerseBooks = [
   { name: "Revelation", file: "Revelation.pdf" },
 ];
 
+ const charlesThompsonBooks = [
+  { name: "VOL I", file: "VOL-I.pdf" },
+  { name: "VOL II", file: "VOL-II.pdf" },
+  { name: "VOL III", file: "VOL-III.pdf" },
+  { name: "VOL IV", file: "VOL-IV.pdf" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -219,6 +226,7 @@ const bibleInVerseBooks = [
   const [showJSB, setShowJSB] = useState(false);
   const [showModernSpeech, setShowModernSpeech] = useState(false);
   const [showBibleInVerse, setShowBibleInVerse] = useState(false);
+  const [showCharlesThompson, setShowCharlesThompson] = useState(false);
 
   return (
     <div className="app">
@@ -844,6 +852,34 @@ const bibleInVerseBooks = [
   >
     Holy Bible-Robert Young
   </button>
+
+ <button
+  className="bible-btn"
+  onClick={() => setShowCharlesThompson(!showCharlesThompson)}
+>
+  Holy Bible-Charles Thompson
+</button>
+
+{showCharlesThompson && (
+  <div className="books-menu">
+    <h3 className="submenu-title">Holy Bible-Charles Thompson</h3>
+
+    {charlesThompsonBooks.map(book => (
+      <button
+        key={book.name}
+        className="book-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Holy Bible-Charles Thompson/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
 
 <button
     className="bible-btn pdf-btn>The Jewish Bible</button>"

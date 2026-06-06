@@ -396,8 +396,8 @@ body::after {
   width: 100%;
   text-align: center;
   color: white;
-  margin-bottom: 10px;
-  font-size: 10px;
+  margin: 10px 0 15px;
+  font-size: 1.0rem;
 }
 
  
