@@ -216,6 +216,12 @@ const boothroydFamilyBible = [
   { name: "Vol 3", url: `${import.meta.env.BASE_URL}pdfs/Boothroyd Family Bible/Vol 3.pdf`},
 ];
 
+const wellbelovedBooks = [
+  { name: "Vol 1", file: "Vol 1.pdf" },
+  { name: "Vol 2", file: "Vol 2.pdf" },
+  { name: "Vol 3", file: "Vol 3.pdf" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -234,6 +240,7 @@ const boothroydFamilyBible = [
   const [showBibleInVerse, setShowBibleInVerse] = useState(false);
   const [showCharlesThompson, setShowCharlesThompson] = useState(false);
   const [showBoothroyd, setShowBoothroyd] = useState(false);
+  const [showWellbeloved, setShowWellbeloved] = useState(false);
 
   return (
     <div className="app">
@@ -487,7 +494,7 @@ const boothroydFamilyBible = [
   Boothroyd Family Bible
 </button>
 
-{showBoothroyd && (
+ {showBoothroyd && (
   <div className="books-menu">
     {boothroydFamilyBible.map(book => (
       <button
@@ -496,7 +503,7 @@ const boothroydFamilyBible = [
         onClick={() =>
           window.open(
             book.url ||
-            `${import.meta.env.BASE_URL}pdfs/Boothroyd/${book.file}`,
+            `${import.meta.env.BASE_URL}pdfs/Boothroyd Family Bible/${book.file}`,
             "_blank"
           )
         }
@@ -837,6 +844,32 @@ const boothroydFamilyBible = [
   >
     HCSB
   </button>
+
+  <button
+  className="version-btn"
+  onClick={() => setShowWellbeloved(!showWellbeloved)}
+>
+  Holy Scriptures Wellbeloved
+</button>
+
+{showWellbeloved && (
+  <div className="books-menu">
+    {wellbelovedBooks.map(book => (
+      <button
+        key={book.name}
+        className="bible-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Holy Scriptures Wellbeloved/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
 
 <button
     className="bible-btn pdf-btn>Holy bible By kerr</button>"
