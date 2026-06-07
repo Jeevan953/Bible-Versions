@@ -222,6 +222,12 @@ const wellbelovedBooks = [
   { name: "Vol 3", file: "Vol 3.pdf" },
 ];
 
+const moffattBibleBooks = [
+  { name: "Genesis–Esther", file: "Genesis-Esther.pdf" },
+  { name: "Job–Malachi", file: "Job-Malachi.pdf" },
+  { name: "New Testament", file: "NT.pdf" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -241,6 +247,7 @@ const wellbelovedBooks = [
   const [showCharlesThompson, setShowCharlesThompson] = useState(false);
   const [showBoothroyd, setShowBoothroyd] = useState(false);
   const [showWellbeloved, setShowWellbeloved] = useState(false);
+  const [showMoffattBible, setShowMoffattBible] = useState(false);
 
   return (
     <div className="app">
@@ -938,6 +945,32 @@ const wellbelovedBooks = [
         onClick={() =>
           window.open(
             `${import.meta.env.BASE_URL}pdfs/Holy Bible-Charles Thompson/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
+  className="version-btn"
+  onClick={() => setShowMoffattBible(!showMoffattBible)}
+>
+  Moffatt Bible 1935
+</button>
+
+{showMoffattBible && (
+  <div className="books-menu">
+    {moffattBibleBooks.map(book => (
+      <button
+        key={book.name}
+        className="bible-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Moffatt Bible 1935/${book.file}`,
             "_blank"
           )
         }
