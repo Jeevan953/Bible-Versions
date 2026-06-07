@@ -238,6 +238,59 @@ const numericalBibleFWGrantBooks = [
   { name: "Hebrews–Revelation", file: "Hebrews-Revelation.pdf" },
 ];
 
+const ooyltBooks = [
+  { name: "Genesis", file: "Genesis.html" },
+  { name: "Exodus", file: "Exodus.html" },
+  { name: "Leviticus", file: "Leviticus.html" },
+  { name: "Numbers", file: "Numbers.html" },
+  { name: "Deuteronomy", file: "Deuteronomy.html" },
+  { name: "Joshua & Judges", file: "JoshuaJudges.html" },
+  { name: "Ruth", file: "Ruth.html" },
+  { name: "Kingdom", file: "Kingdom.html" },
+  { name: "Chronicles", file: "Chronicles.html" },
+  { name: "Ezra & Nehemiah", file: "EzraNehemiah.html" },
+  { name: "Esther", file: "Esther.html" },
+  { name: "Job", file: "Job.html" },
+  { name: "Psalms", file: "Psalms.html" },
+  { name: "Proverbs", file: "Proverbs.html" },
+  { name: "Ecclesiastes", file: "Ecclesiastes.html" },
+  { name: "Song of Solomon", file: "Song.html" },
+  { name: "Isaiah", file: "Isaiah.html" },
+  { name: "Jeremiah", file: "Jeremiah.html" },
+  { name: "Lamentations", file: "Lamentations.html" },
+  { name: "Ezekiel", file: "Ezekiel.html" },
+  { name: "Daniel", file: "Daniel.html" },
+  { name: "Minor Prophets", file: "MinorProphets.html" },
+
+  { name: "Matthew", file: "Matthew.html" },
+  { name: "Mark", file: "Mark.html" },
+  { name: "Luke", file: "Luke.html" },
+  { name: "John", file: "John.html" },
+  { name: "Acts", file: "Acts.html" },
+  { name: "Romans", file: "Romans.html" },
+  { name: "1 Corinthians", file: "1Corinthians.html" },
+  { name: "2 Corinthians", file: "2Corinthians.html" },
+  { name: "Galatians", file: "Galatians.html" },
+  { name: "Ephesians", file: "Ephesians.html" },
+  { name: "Philippians", file: "Philippians.html" },
+  { name: "Colossians", file: "Colossians.html" },
+  { name: "1 Thessalonians", file: "1Thessalonians.html" },
+  { name: "2 Thessalonians", file: "2Thessalonians.html" },
+  { name: "1 Timothy", file: "1Timothy.html" },
+  { name: "2 Timothy", file: "2Timothy.html" },
+  { name: "Titus", file: "Titus.html" },
+  { name: "Philemon", file: "Philemon.html" },
+  { name: "Hebrews", file: "Hebrews.html" },
+  { name: "James", file: "James.html" },
+  { name: "1 Peter", file: "1Peter.html" },
+  { name: "2 Peter", file: "2Peter.html" },
+  { name: "1 John", file: "1John.html" },
+  { name: "2 John", file: "2John.html" },
+  { name: "3 John", file: "3John.html" },
+  { name: "Jude", file: "Jude.html" },
+  { name: "Revelation", file: "Revelation.html" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -259,6 +312,7 @@ const numericalBibleFWGrantBooks = [
   const [showWellbeloved, setShowWellbeloved] = useState(false);
   const [showMoffattBible, setShowMoffattBible] = useState(false);
   const [showNumericalBibleFWGrant, setShowNumericalBibleFWGrant] = useState(false);
+  const [showOriginalOrderedYLT, setShowOriginalOrderedYLT] = useState(false);
 
   return (
     <div className="app">
@@ -967,6 +1021,13 @@ const numericalBibleFWGrantBooks = [
 )}
 
 <button
+    className="bible-btn pdf-btn>JPS Tanakh 1917</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/JPS Tanakh 1917.pdf`, "_blank")}
+  >
+    JPS Tanakh 1917
+  </button>
+
+<button
   className="version-btn"
   onClick={() => setShowMoffattBible(!showMoffattBible)}
 >
@@ -1021,10 +1082,43 @@ const numericalBibleFWGrantBooks = [
 )}
 
 <button
+  className="version-btn"
+  onClick={() => setShowOriginalOrderedYLT(!showOriginalOrderedYLT)}
+>
+  Original Ordered YLT (OOYLT)
+</button>
+
+{showOriginalOrderedYLT && (
+  <div className="books-menu">
+    {ooyltBooks.map(book => (
+      <button
+        key={book.name}
+        className="bible-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Original Ordered YLT (OOYLT)/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
     className="bible-btn pdf-btn>The Jewish Bible</button>"
     onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Jewish Bible.pdf`, "_blank")}
   >
     The Jewish Bible
+  </button>
+
+  <button
+    className="bible-btn pdf-btn>Targum Onkelos Pentateuch</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Targum Onkelos Pentateuch.pdf`, "_blank")}
+  >
+    Targum Onkelos Pentateuch
   </button>
 
 </div>
