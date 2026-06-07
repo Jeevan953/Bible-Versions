@@ -304,6 +304,79 @@ const belovedAndIBooks = [
   { name: "Gospel of Barnabas", file: "Gospel of Barnabas.pdf" },
 ];
 
+const haydockBible1848Books = [
+  { name: "Genesis", file: "GENESIS.pdf" },
+  { name: "Exodus", file: "EXODUS.pdf" },
+  { name: "Leviticus", file: "LEVITICUS.pdf" },
+  { name: "Numbers", file: "NUMBERS.pdf" },
+  { name: "Deuteronomy", file: "DEUTERONOMY.pdf" },
+  { name: "Joshua", file: "JOSHUA.pdf" },
+  { name: "Judges", file: "JUDGES.pdf" },
+  { name: "Ruth", file: "RUTH.pdf" },
+  { name: "1 Samuel", file: "1 SAMUEL.pdf" },
+  { name: "2 Samuel", file: "2 SAMUEL.pdf" },
+  { name: "2 Kings", file: "2 KINGS.pdf" },
+  { name: "2 Chronicles", file: "2 CHRONICLES.pdf" },
+  { name: "Ezra", file: "EZRA.pdf" },
+  { name: "Nehemiah", file: "NEHEMIAH.pdf" },
+  { name: "Esther", file: "ESTHER.pdf" },
+  { name: "Job", file: "JOB.pdf" },
+  { name: "Psalms 1-54", file: "PSALMS 1 54.pdf" },
+  { name: "Psalms 102-150", file: "PSALMS 102 150.pdf" },
+  { name: "Proverbs", file: "PROVERBS.pdf" },
+  { name: "Ecclesiastes", file: "ECCLESIASTES.pdf" },
+  { name: "Song of Songs", file: "SONG OF SONGS.pdf" },
+  { name: "Wisdom", file: "WISDOM.pdf" },
+  { name: "Ecclesiasticus", file: "ECCLESIASTICUS.pdf" },
+  { name: "Isaiah", file: "ISAIAH.pdf" },
+  { name: "Jeremiah", file: "JEREMIAH.pdf" },
+  { name: "Lamentations", file: "LAMENTATIONS.pdf" },
+  { name: "Baruch", file: "BARUCH.pdf" },
+  { name: "Ezeckiel", file: "EZECKIEL.pdf" },
+  { name: "Daniel", file: "DANIEL.pdf" },
+  { name: "Hosea", file: "HOSEA.pdf" },
+  { name: "Joel", file: "JOEL.pdf" },
+  { name: "Amos", file: "AMOS.pdf" },
+  { name: "Obadiah", file: "OBADIAH.pdf" },
+  { name: "Jonah", file: "JONAH.pdf" },
+  { name: "Micah", file: "MICAH.pdf" },
+  { name: "Nahum", file: "NAHUM.pdf" },
+  { name: "Habakkuk", file: "HABAKKUK.pdf" },
+  { name: "Zephaniah", file: "ZEPHANIAH.pdf" },
+  { name: "Haggai", file: "HAGGAI.pdf" },
+  { name: "Zachariah", file: "ZACHARIAH.pdf" },
+  { name: "Malachai", file: "MALACHAI.pdf" },
+
+  { name: "St Matthew", file: "ST MATTHEW.pdf" },
+  { name: "St Mark", file: "ST MARK.pdf" },
+  { name: "St Luke", file: "ST LUKE.pdf" },
+  { name: "St John", file: "ST JOHN.pdf" },
+  { name: "Acts", file: "ACTS.pdf" },
+  { name: "Romans", file: "ROMANS.pdf" },
+  { name: "1 Timothy", file: "1 TIMOTHY.pdf" },
+  { name: "2 Timothy", file: "2 TIMOTHY.pdf" },
+  { name: "Titus", file: "TITUS.pdf" },
+  { name: "Philemon", file: "PHILEMON.pdf" },
+  { name: "Hebrews", file: "HEBREWS.pdf" },
+  { name: "James", file: "JAMES.pdf" },
+  { name: "1 Peter", file: "1 PETER.pdf" },
+  { name: "2 Peter", file: "2 PETER.pdf" },
+  { name: "1 John", file: "1 JOHN.pdf" },
+  { name: "2 John", file: "2 JOHN.pdf" },
+  { name: "3 John", file: "3 JOHN.pdf" },
+  { name: "Jude", file: "JUDE.pdf" },
+  { name: "Apocalypse", file: "APOCALYPSE.pdf" },
+
+  { name: "1 Machabees", file: "1 MACHABEES.pdf" },
+  { name: "2 Machabees", file: "2 MACHABEES.pdf" },
+
+  { name: "Galatians", file: "GALATIANS.pdf" },
+  { name: "Ephesians", file: "EPHESIANS.pdf" },
+  { name: "Philippians", file: "PHILIPPIANS.pdf" },
+  { name: "Colossians", file: "COLOSSIANS.pdf" },
+  { name: "2 Thessalonians", file: "2 THESSALONIANS.pdf" }
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -327,6 +400,8 @@ const belovedAndIBooks = [
   const [showNumericalBibleFWGrant, setShowNumericalBibleFWGrant] = useState(false);
   const [showOriginalOrderedYLT, setShowOriginalOrderedYLT] = useState(false);
   const [showBelovedAndI, setShowBelovedAndI] = useState(false);
+  const [showHaydockBible1848, setShowHaydockBible1848] = useState(false);
+
 
   return (
     <div className="app">
@@ -422,7 +497,7 @@ const belovedAndIBooks = [
 )}
 
 <button
-  className="menu-btn"
+  className="version-btn"
   onClick={() => setShowBelovedAndI(!showBelovedAndI)}
 >
   Beloved and I Thomas McElwain
@@ -1137,6 +1212,32 @@ const belovedAndIBooks = [
         onClick={() =>
           window.open(
             `${import.meta.env.BASE_URL}pdfs/Original Ordered YLT (OOYLT)/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
+  className="version-btn"
+  onClick={() => setShowHaydockBible1848(!showHaydockBible1848)}
+>
+  The Haydock Bible 1848
+</button>
+
+{showHaydockBible1848 && (
+  <div className="books-menu">
+    {haydockBible1848Books.map(book => (
+      <button
+        key={book.name}
+        className="bible-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/The Haydock Bible 1848/${book.file}`,
             "_blank"
           )
         }
