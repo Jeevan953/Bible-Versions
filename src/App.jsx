@@ -291,6 +291,19 @@ const ooyltBooks = [
   { name: "Revelation", file: "Revelation.html" },
 ];
 
+const belovedAndIBooks = [
+  { name: "Books of Moses", file: "Books of Moses.pdf" },
+  { name: "Enoch Jubilees Joshua Judges", file: "Enoch Jubilees Joshua Judges.pdf" },
+  { name: "Ruth to Chronicles", file: "Ruth to Chronicles.pdf" },
+  { name: "Ezra to Job", file: "Ezra to Job.pdf" },
+  { name: "Psalms to Sirach", file: "Psalms to Sirach.pdf" },
+  { name: "Isaiah to Malachi", file: "Isaiah to Malachi.pdf" },
+  { name: "Gospels", file: "Gospels.pdf" },
+  { name: "Acts to Revelation", file: "Acts to Revelation.pdf" },
+  { name: "Holy Quran", file: "Holy Quran.pdf" },
+  { name: "Gospel of Barnabas", file: "Gospel of Barnabas.pdf" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -313,6 +326,7 @@ const ooyltBooks = [
   const [showMoffattBible, setShowMoffattBible] = useState(false);
   const [showNumericalBibleFWGrant, setShowNumericalBibleFWGrant] = useState(false);
   const [showOriginalOrderedYLT, setShowOriginalOrderedYLT] = useState(false);
+  const [showBelovedAndI, setShowBelovedAndI] = useState(false);
 
   return (
     <div className="app">
@@ -397,6 +411,32 @@ const ooyltBooks = [
           window.open(
             book.url ||
             `${import.meta.env.BASE_URL}pdfs/AYB/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
+  className="menu-btn"
+  onClick={() => setShowBelovedAndI(!showBelovedAndI)}
+>
+  Beloved and I Thomas McElwain
+</button>
+
+{showBelovedAndI && (
+  <div className="books-menu">
+    {belovedAndIBooks.map(book => (
+      <button
+        key={book.name}
+        className="bible-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Beloved and I/${book.file}`,
             "_blank"
           )
         }
