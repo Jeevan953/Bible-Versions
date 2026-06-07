@@ -400,4 +400,7 @@ body::after {
   font-size: 1.0rem;
 }
 
- 
+ .version-btn,
+.bible-btn {
+  font-weight: bold;
+}

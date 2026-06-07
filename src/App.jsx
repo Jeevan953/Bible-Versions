@@ -228,6 +228,16 @@ const moffattBibleBooks = [
   { name: "New Testament", file: "NT.pdf" },
 ];
 
+const numericalBibleFWGrantBooks = [
+  { name: "Pentateuch", file: "Pentateuch.pdf" },
+  { name: "Joshua–2 Samuel", file: "Joshua-2Samuel.pdf" },
+  { name: "Psalms", file: "Psalms.pdf" },
+  { name: "Ezekiel", file: "Ezekiel.pdf" },
+  { name: "Gospels", file: "Gospels.pdf" },
+  { name: "Acts–2 Corinthians", file: "Acts-2Corinthians.pdf" },
+  { name: "Hebrews–Revelation", file: "Hebrews-Revelation.pdf" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -248,6 +258,7 @@ const moffattBibleBooks = [
   const [showBoothroyd, setShowBoothroyd] = useState(false);
   const [showWellbeloved, setShowWellbeloved] = useState(false);
   const [showMoffattBible, setShowMoffattBible] = useState(false);
+  const [showNumericalBibleFWGrant, setShowNumericalBibleFWGrant] = useState(false);
 
   return (
     <div className="app">
@@ -971,6 +982,34 @@ const moffattBibleBooks = [
         onClick={() =>
           window.open(
             `${import.meta.env.BASE_URL}pdfs/Moffatt Bible 1935/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+ <button
+  className="version-btn"
+  onClick={() => setShowNumericalBibleFWGrant(!showNumericalBibleFWGrant)}
+>
+  Numerical Bible
+  <br />
+  (F. W. Grant)
+</button>
+
+{showNumericalBibleFWGrant && (
+  <div className="books-menu">
+    {numericalBibleFWGrantBooks.map(book => (
+      <button
+        key={book.name}
+        className="bible-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Numerical Bible FW Grant/${book.file}`,
             "_blank"
           )
         }
