@@ -404,3 +404,37 @@ body::after {
 .bible-btn {
   font-weight: bold;
 }
+
+.pdf-title-text {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.pdf-title-text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff9900,
+    #ffff00,
+    #00ff00,
+    #00ffff,
+    #0000ff,
+    #ff00ff
+  );
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s linear infinite;
+}
+
+@keyframes rainbow {
+  to {
+    background-position: 300% center;
+  }
+}

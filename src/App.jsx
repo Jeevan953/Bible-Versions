@@ -438,8 +438,9 @@ const internationalEnglishVersionBooks = [
      <h1 className="title">Bible Versions</h1>
 <h1 className={getWordClass("Bible Versions")}>
   </h1>
-      <h2 className="pdf-title">
-  📚 PDF Bibles
+
+<h2 className="pdf-title">
+  📚 <span className="pdf-title-text">PDF Bibles</span>
 </h2>
 
 <div className="button-container">
@@ -961,7 +962,7 @@ const internationalEnglishVersionBooks = [
     className="bible-btn pdf-btn>Genesis--R.Crumb</button>"
     onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQD3e4S1WqLVQ7BUkrAmRF7gAU2UTEuQN7wSFB3Ts_viU5I?e=eaGVNd", "_blank")}
   >
-    Genesis--R.Crumb.pdf
+    Genesis--R.Crumb
   </button>
 
 <button
@@ -1123,6 +1124,13 @@ const internationalEnglishVersionBooks = [
     Holy Bible-In-Its-Original-Order
   </button>
 
+  <button
+    className="bible-btn pdf-btn> Holy Scriptures-RBarker 1615(BHS)</button>"
+    onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQAZMOojFt3vTYnEm3zdh5UTAR8003WAFeSqxF6gpPxx264?e=YJfXKo", "_blank")}
+  >
+    Holy Scriptures-RBarker 1615(BHS)
+  </button>
+
 <button
     className="bible-btn pdf-btn>Holy Bible by  Denvir</button>"
     onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Holy Bible by  Denvir.pdf`, "_blank")}
@@ -1166,10 +1174,101 @@ const internationalEnglishVersionBooks = [
 )}
 
 <button
+    className="bible-btn pdf-btn>Ichthys Translations-OT</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Ichthys Translations-OT.pdf`, "_blank")}
+  >
+    Ichthys Translations-OT
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Interlinear Greek-Eng Septuagint.pdf</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Interlinear Greek-Eng Septuagint.pdf`, "_blank")}
+  >
+    Interlinear Greek-Eng Septuagint
+  </button>
+
+<button
+    className="bible-btn pdf-btn>ISV.pdf</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/ISV.pdf`, "_blank")}
+  >
+    ISV
+  </button>
+
+<button
+    className="bible-btn pdf-btn>JBR.pdf</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/JBR.pdf`, "_blank")}
+  >
+    JBR
+  </button>
+
+<button
+    className="bible-btn pdf-btn>JEHOVAH Name KJV</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/JEHOVAH Name KJV.pdf`, "_blank")}
+  >
+    JEHOVAH Name KJV
+  </button>
+
+<button
+    className="bible-btn pdf-btn>Jerusalem Bible 1966</button>"
+    onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQALv4pXB8bASIbOo3Ts1fROAaJLf7bKbCRY2gVMtpotpY8?e=SBA53I", "_blank")}
+  >
+    Jerusalem Bible 1966
+  </button>
+
+<button
     className="bible-btn pdf-btn>JPS Tanakh 1917</button>"
     onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/JPS Tanakh 1917.pdf`, "_blank")}
   >
     JPS Tanakh 1917
+  </button>
+
+  <button
+    className="bible-btn pdf-btn>Jewish School & Family Bible</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Jewish School & Family Bible.pdf`, "_blank")}
+  >
+    Jewish School & Family Bible
+  </button>
+
+   <button
+    className="bible-btn pdf-btn>John Wycliffe Bible-1382</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/John Wycliffe Bible-1382.pdf`, "_blank")}
+  >
+    John Wycliffe Bible-1382
+  </button>
+
+    <button
+    className="bible-btn pdf-btn>Joseph Smith Bible (JST)</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Joseph Smith Bible (JST).pdf`, "_blank")}
+  >
+    Joseph Smith Bible (JST)
+  </button>
+
+<button
+    className="bible-btn pdf-btn>KJV Bible 1611</button>"
+    onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQBVvkVkmWjPR5y3-fbY7AdEAUO3YSlOvVci9wUl3q5i0B4?e=ipCLQx", "_blank")}
+  >
+    KJV Bible 1611
+  </button>
+
+  <button
+    className="bible-btn pdf-btn>King James Bible-1769</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/King James Bible-1769.pdf`, "_blank")}
+  >
+    King James Bible-1769
+  </button>
+
+  <button
+    className="bible-btn pdf-btn>KJV Authorised -2006</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/KJV Authorised -2006.pdf`, "_blank")}
+  >
+    KJV Authorised -2006
+  </button>
+
+  <button
+    className="bible-btn pdf-btn>KJV Cambridge Paragraph Bible</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/KJV Cambridge Paragraph Bible`, "_blank")}
+  >
+    KJV Cambridge Paragraph Bible
   </button>
 
 <button
@@ -1319,6 +1418,13 @@ const internationalEnglishVersionBooks = [
     ))}
   </div>
 )}
+
+<button
+    className="bible-btn pdf-btn>Ichthys Translations-OT</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Ichthys Translations-OT.pdf`, "_blank")}
+  >
+    Ichthys Translations-OT
+  </button>
 
 <button
   className="version-btn"
