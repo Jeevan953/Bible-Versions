@@ -377,6 +377,25 @@ const haydockBible1848Books = [
   { name: "2 Thessalonians", file: "2 THESSALONIANS.pdf" }
 ];
 
+const pictorialBible1861Books = [
+  {
+    name: "Genesis–Joshua",
+    url: "https://1drv.ms/b/c/7eb51b35f3576b65/IQAbewNhY--TR71cxoNBpLjHAcUK7eLuQ5Pg_ABm2Wmbee4?e=krQT65"
+  },
+  {
+    name: "Judges–Job",
+    url: "https://1drv.ms/b/c/7eb51b35f3576b65/IQCHamH-AyTiQoYHbyN0LpfoAZaL4T6L_gHTkPNzexZO45E?e=iSEAgc"
+  },
+  {
+    name: "New Testament",
+    url: "https://1drv.ms/b/c/7eb51b35f3576b65/IQAyCXwKwh0AQLsYhnm6ZquvAd3jQjkhCcjzYjMYNvX11Tg?e=GZhSHe"
+  },
+  {
+    name: "Psalms–Malachi",
+    url: "https://1drv.ms/b/c/7eb51b35f3576b65/IQCffAVC_K7TQZbcyM4vEFahAfYp3cf470PcbqcySfkROjY?e=pcLSe7"
+  }
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -401,6 +420,7 @@ const haydockBible1848Books = [
   const [showOriginalOrderedYLT, setShowOriginalOrderedYLT] = useState(false);
   const [showBelovedAndI, setShowBelovedAndI] = useState(false);
   const [showHaydockBible1848, setShowHaydockBible1848] = useState(false);
+  const [showPictorialBible1861, setShowPictorialBible1861] = useState(false);
 
 
   return (
@@ -1261,6 +1281,27 @@ const haydockBible1848Books = [
   >
     Targum Onkelos Pentateuch
   </button>
+
+<button
+  className="version-btn"
+  onClick={() => setShowPictorialBible1861(!showPictorialBible1861)}
+>
+  The Pictorial Bible 1861
+</button>
+
+{showPictorialBible1861 && (
+  <div className="books-menu">
+    {pictorialBible1861Books.map(book => (
+      <button
+        key={book.name}
+        className="bible-btn"
+        onClick={() => window.open(book.url, "_blank")}
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
 
 </div>
  
