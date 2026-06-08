@@ -1426,6 +1426,111 @@ const internationalEnglishVersionBooks = [
 </button>
 
 <button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQBWgey_E3oFR63eJw7Q0Zr_AcgYYEbmFbaodbMaqzuHPbM?e=D7Jcn2", "_blank")}
+>
+  Newberry Bible 1890
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New International Version (NIV) .pdf`, "_blank")}
+>
+  New International Version (NIV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New King James Version ( NKJV ).pdf`, "_blank")}
+>
+  New King James Version (NKJV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New Literal-OT Translation Portions.pdf`, "_blank")}
+>
+  New Literal-OT Translation Portions
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New Living Translation -( NLT ).pdf`, "_blank")}
+>
+  New Living Translation (NLT)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New Revised Standard Version ( NRSV ).pdf`, "_blank")}
+>
+  New Revised Standard Version (NRSV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New Revised Standard Version - NRSV.pdf`, "_blank")}
+>
+  New Revised Standard Version - NRSV
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/NewTestament-(GNV-ERV-KJV).pdf`, "_blank")}
+>
+  New Testament (GNV-ERV-KJV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New World Translation-1984.pdf`, "_blank")}
+>
+  New World Translation 1984
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New World Translation (NWT)2013.pdf`, "_blank")}
+>
+  New World Translation (NWT) 2013
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Nigerian Pidgin English Bible.pdf`, "_blank")}
+>
+  Nigerian Pidgin English Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Noah Webster Bible.pdf`, "_blank")}
+>
+  Noah Webster Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/NWT - Study Edition .pdf`, "_blank")}
+>
+  NWT - Study Edition
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Nyangumarta English Bible.pdf`, "_blank")}
+>
+  Nyangumarta English Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/One Unity Resource Bible.pdf`, "_blank")}
+>
+  One Unity Resource Bible
+</button>
+
+<button
   className="version-btn"
   onClick={() => setShowMoffattBible(!showMoffattBible)}
 >
