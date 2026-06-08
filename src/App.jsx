@@ -396,6 +396,15 @@ const pictorialBible1861Books = [
   }
 ];
 
+const internationalEnglishVersionBooks = [
+  { name: "Genesis", file: "Genesis.pdf" },
+  { name: "Acts", file: "Acts.pdf" },
+  { name: "John", file: "John.pdf" },
+  { name: "Proverbs", file: "Proverbs.pdf" },
+  { name: "Psalms", file: "Psalms.pdf" },
+  { name: "Revelation", file: "Revelation.pdf" },
+];
+
  const getWordClass = (word) => {
   const specialWords = {
     "Bible Versions": "anim-open-wheel font-BibleVersions",
@@ -421,6 +430,7 @@ const pictorialBible1861Books = [
   const [showBelovedAndI, setShowBelovedAndI] = useState(false);
   const [showHaydockBible1848, setShowHaydockBible1848] = useState(false);
   const [showPictorialBible1861, setShowPictorialBible1861] = useState(false);
+  const [showInternationalEnglishVersion, setShowInternationalEnglishVersion] = useState(false);
 
 
   return (
@@ -1281,6 +1291,34 @@ const pictorialBible1861Books = [
   >
     Targum Onkelos Pentateuch
   </button>
+
+<button
+  className="version-btn"
+  onClick={() =>
+    setShowInternationalEnglishVersion(!showInternationalEnglishVersion)
+  }
+>
+  The International English Version (IEB)
+</button>
+
+{showInternationalEnglishVersion && (
+  <div className="books-menu">
+    {internationalEnglishVersionBooks.map(book => (
+      <button
+        key={book.name}
+        className="bible-btn"
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/The International English Version (IEB)/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
 
 <button
   className="version-btn"
