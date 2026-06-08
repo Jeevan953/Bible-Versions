@@ -1342,6 +1342,90 @@ const internationalEnglishVersionBooks = [
 </button>
 
 <button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/LXX 2012 Septuagiant US.pdf`, "_blank")}
+>
+  LXX 2012 Septuagiant US
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/LXX-2012 Septuagint UK.pdf`, "_blank")}
+>
+  LXX-2012 Septuagint UK
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Messianic Aleph Tav Scriptures(MATS).pdf`, "_blank")}
+>
+  Messianic Aleph Tav Scriptures (MATS)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Modern Literal Version ( MLV )OT.pdf`, "_blank")}
+>
+  Modern Literal Version (MLV) OT
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Modern Readers Bible-1899.pdf`, "_blank")}
+>
+  Modern Readers Bible (1899)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/NASB.pdf`, "_blank")}
+>
+  NASB
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Negro-Slave-Bible1807.pdf`, "_blank")}
+>
+  Negro-Slave Bible 1807
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/NETS.pdf`, "_blank")}
+>
+  NETS
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/NEV -Europian version OT.pdf`, "_blank")}
+>
+  NEV - European Version OT
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New American Bible (NAB) .pdf`, "_blank")}
+>
+  New American Bible (NAB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New English Translation ( NET ).pdf`, "_blank")}
+>
+  New English Translation (NET)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/New Heart English Bible ( NHEB ).pdf`, "_blank")}
+>
+  New Heart English Bible (NHEB)
+</button>
+
+<button
   className="version-btn"
   onClick={() => setShowMoffattBible(!showMoffattBible)}
 >
@@ -1366,6 +1450,15 @@ const internationalEnglishVersionBooks = [
     ))}
   </div>
 )}
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() =>
+    window.open(
+      "https://1drv.ms/b/c/7eb51b35f3576b65/IQDvlLola-zFTbbmlQcWaFVRAVhrpYM5ClHsAqtaSY2PeLA?e=ETK5vD", "_blank")}
+>
+  Modern Readers Bible -1907
+</button>
 
  <button
   className="version-btn"
