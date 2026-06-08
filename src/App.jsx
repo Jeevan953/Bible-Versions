@@ -1251,8 +1251,8 @@ const internationalEnglishVersionBooks = [
   </button>
 
   <button
-    className="bible-btn pdf-btn>King James Bible-1769</button>"
-    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/King James Bible-1769.pdf`, "_blank")}
+    className="bible-btn pdf-btn>King-James-Bible-1769</button>"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/King-James-Bible-1769.pdf`, "_blank")}
   >
     King James Bible-1769
   </button>
@@ -1266,10 +1266,80 @@ const internationalEnglishVersionBooks = [
 
   <button
     className="bible-btn pdf-btn>KJV Cambridge Paragraph Bible</button>"
-    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/KJV Cambridge Paragraph Bible`, "_blank")}
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/KJV Cambridge Paragraph Bible.pdf`, "_blank")}
   >
     KJV Cambridge Paragraph Bible
   </button>
+
+<button
+    className="bible-btn pdf-btn>KJV Oxford Edition-Blayney 1769</button>"
+    onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQAMu2wMMF37RYGETlu7HfmaASpKjyq8nFDG6itxON4fS0k?e=jg0lzD","_blank")}
+  >
+    KJV Oxford Edition-Blayney 1769
+  </button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/KJV Life in the sprit Bible.pdf`, "_blank")}
+>
+  KJV Life in the Spirit Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/KJV with Apocrypha & Deuterocanon .pdf`, "_blank")}
+>
+  KJV with Apocrypha & Deuterocanon
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Lamsa’s Translation .pdf`, "_blank")}
+>
+  Lamsa's Translation
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Leeser 24 Holy Scriptures -1922.pdf`, "_blank")}
+>
+  Leeser 24 Holy Scriptures (1922)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Leeser Tanakh Bible.pdf`, "_blank")}
+>
+  Leeser Tanakh Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Lexham_English_Bible ( LEB ).pdf`, "_blank")}
+>
+  Lexham English Bible (LEB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/LHG Bibles RevJ.pdf`, "_blank")}
+>
+  LHG Bibles RevJ
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Literal Standard Version (LSV).pdf`, "_blank")}
+>
+  Literal Standard Version (LSV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Logos KJV ( LKJV )Genesis.pdf`, "_blank")}
+>
+  Logos KJV (LKJV) Genesis
+</button>
 
 <button
   className="version-btn"
