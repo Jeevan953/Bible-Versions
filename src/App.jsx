@@ -1858,6 +1858,132 @@ const internationalEnglishVersionBooks = [
 )}
 
 <button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://www.dropbox.com/scl/fi/u3u2jizogp66gjxw0n95z/Taverner-Bible-1539.pdf?rlkey=9c6fn2s70p3qezqq68zrcbz0c&st=m3d9dk5p&dl=0", "_blank")}
+>
+  Taverner Bible (1539)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://www.dropbox.com/scl/fi/pa54k58d5l9ifmw07cibq/The-36-Line-Bible-Bamberg-Bible.pdf?rlkey=sbe0ii845le2w1nxaaftlzjyn&st=mmecjrkv&dl=0", "_blank")}
+>
+  The 36-Line Bible (Bamberg Bible)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Abridged Bible .pdf`, "_blank")}
+>
+  The Abridged Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Alpha & Omega Bible ( AOB ).pdf`, "_blank")}
+>
+  The Alpha & Omega Bible (AOB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The American Bible.pdf`, "_blank")}
+>
+  The American Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Apocrypha & Books from the Ethiopic Bible .pdf`, "_blank")}
+>
+  The Apocrypha & Books from the Ethiopic Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Aramaic New Testament.pdf`, "_blank")}
+>
+  The Aramaic New Testament
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Apostolic Bible Polyglot - First Edition.pdf`, "_blank")}
+>
+  The Apostolic Bible Polyglot - First Edition
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Bible for Teen Guys( NIV ).pdf`, "_blank")}
+>
+  The Bible for Teen Guys (NIV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Bible in Living English-Steven T. Byington.pdf`, "_blank")}
+>
+  The Bible in Living English - Steven T. Byington
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQCxmkNhNVK6TaKlCeGnOlKnASmscb1ZfA-dFVuGLKAhpPE?e=JKx1X4", "_blank")}
+>
+  The Bishop's Bible - 1568
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Book Of Yahweh ( BOY ) 1999.pdf`, "_blank")}
+>
+  The Book Of Yahweh (BOY) 1999
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Book of Esther-JW Haley.pdf`, "_blank")}
+>
+  The Book of Esther - JW Haley
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Book of Yahweh- 1922.pdf`, "_blank")}
+>
+  The Book of Yahweh - 1922
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Century Bible ( St. Luke ).pdf`, "_blank")}
+>
+  The Century Bible (St. Luke)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Children's Bible.pdf`, "_blank")}
+>
+  The Children's Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The complete Aramaic English_interlinear_Peshitta.pdf`, "_blank")}
+>
+  The Complete Aramaic English Interlinear Peshitta
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Complete Apostles Bible (CAB).pdf`, "_blank")}
+>
+  The Complete Apostles Bible (CAB)
+</button>
+
+<button
   className="version-btn"
   onClick={() => setShowHaydockBible1848(!showHaydockBible1848)}
 >
