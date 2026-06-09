@@ -1636,6 +1636,139 @@ const internationalEnglishVersionBooks = [
 </button>
 
 <button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Shaw’s OT-in-Art 1902.pdf`, "_blank")}
+>
+  Shaw's OT-in-Art 1902
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Shem Qadosh Version ( SQV ).pdf`, "_blank")}
+>
+  Shem Qadosh Version (SQV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Story of the Bible in Rhyme.pdf`, "_blank")}
+>
+  Story of the Bible in Rhyme
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/RSV.pdf`, "_blank")}
+>
+  RSV
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Revised Version with Apocrypha.pdf`, "_blank")}
+>
+  Revised Version with Apocrypha
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Septuagint in American English.pdf`, "_blank")}
+>
+  Septuagint in American English
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Samuel II - Kirkpatrick.pdf`, "_blank")}
+>
+  Samuel II - Kirkpatrick
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Smith's Literal Translation.pdf`, "_blank")}
+>
+  Smith's Literal Translation
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/RWB - 1995.pdf`, "_blank")}
+>
+  RWB - 1995
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://www.dropbox.com/scl/fi/aai27mw4zr850ct8jmz96/Robert-Aitken-KJV-Bible-1782.pdf?rlkey=4fr6ztcdhxz01f48ujcxxsoo7&st=lztwulpi&dl=0", "_blank")}
+>
+  Robert Aitken KJV Bible 1782
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://www.dropbox.com/scl/fi/kyumphxy0h0lvwi29xjts/Revised-Version-1913.pdf?rlkey=5zi7go7sy7caglmb8khzhv9qw&st=2010fzx0&dl=0", "_blank")}
+>
+  Revised Version -1913
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://www.dropbox.com/scl/fi/7gtax1fwtdcpeuoxlcc8k/Revised-Version-1895.pdf?rlkey=2xg52p5s1nvxdejooewev8ovz&st=3nudv3xv&dl=0", "_blank")}
+>
+  Revised Version-1895
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://www.dropbox.com/scl/fi/1kn9boz4h32dxiwuzvp8z/Rotherham_Emphasized_Bible-EBR.pdf?rlkey=nh34z4a9onwzwd074jynaruej&st=4jymntg1&dl=0", "_blank")}
+>
+  Rotherham_Emphasized_Bible (EBR)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/RSV - 1952.pdf`, "_blank")}
+>
+  RSV - 1952
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Revised Webster Version 1833.pdf`, "_blank")}
+>
+  Revised Webster Version 1833
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Stories From the Bible.pdf`, "_blank")}
+>
+  Stories From the Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Scofield Reference Bible.pdf`, "_blank")}
+>
+  Scofield Reference Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/RKJNT.pdf`, "_blank")}
+>
+  RKJNT
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/SMBC Mini Bible.pdf`, "_blank")}
+>
+  SMBC Mini Bible
+</button>
+
+<button
   className="version-btn"
   onClick={() => setShowMoffattBible(!showMoffattBible)}
 >
