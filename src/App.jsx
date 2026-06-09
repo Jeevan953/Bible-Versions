@@ -1531,6 +1531,111 @@ const internationalEnglishVersionBooks = [
 </button>
 
 <button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Holy Scriptures Hebrew & English.pdf`, "_blank")}
+>
+  Holy Scriptures Hebrew & English
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/OEB -  Com.Spelling.pdf`, "_blank")}
+>
+  OEB - Com. Spelling
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/OEB - US.pdf`, "_blank")}
+>
+  OEB - US
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQA7aSGIDd5JQrQ9Couo-oEWAZX-6PlGMsz8q1d0tCok6tE?e=G2fIRe", "_blank")}
+>
+  Parallel New Testament - Scrivener
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQC1WGRhKHypSJhXyGKWbi0DAaH5-A2JF7TSUt503ksm7p4?e=6FDsgd", "_blank")}
+>
+  Pictorial Household Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Pioneer New Testament  2014.pdf`, "_blank")}
+>
+  Pioneer New Testament 2014
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Plain English Version (PEV).pdf`, "_blank")}
+>
+  Plain English Version (PEV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Polyglot Full Bible.pdf`, "_blank")}
+>
+  Polyglot Full Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQD4eXNIbjyeTIbmwyuWxxeCAenG-gysvr4STWOMLNuZEqI?e=D5rBOq", "_blank")}
+>
+  Quaker (Purver) Bible 1764
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Reader's Digest Bible For Children.pdf`, "_blank")}
+>
+  Reader's Digest Bible For Children
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQC8qWIns9ejQZiXK_fqkyvyAerXv6Nqe6cfbs2vGyBVIs0?e=c88WpS", "_blank")}
+>
+  REB - 1877
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Recovery Version.pdf`, "_blank")}
+>
+  Recovery Version
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Revised Common Version(RCV).pdf`, "_blank")}
+>
+  Revised Common Version (RCV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Revised English Bible ( REB ).pdf`, "_blank")}
+>
+  Revised English Bible (REB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/RNKJV.pdf`, "_blank")}
+>
+  RNKJV
+</button>
+
+<button
   className="version-btn"
   onClick={() => setShowMoffattBible(!showMoffattBible)}
 >
