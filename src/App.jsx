@@ -2249,6 +2249,251 @@ const internationalEnglishVersionBooks = [
 
 <button
   className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Illustrated (KJV).pdf`, "_blank")}
+>
+  The Illustrated (KJV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Lexham English Bible.pdf`, "_blank")}
+>
+  The Lexham English Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Literary Man’s Bible.pdf`, "_blank")}
+>
+  The Literary Man's Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Living Torah By Rabbi ( TLT ).pdf`, "_blank")}
+>
+  The Living Torah By Rabbi (TLT)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The MacArthur Daily Bible.pdf`, "_blank")}
+>
+  The MacArthur Daily Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Names of God Bible ( NOG ).pdf`, "_blank")}
+>
+  The Names of God Bible (NOG)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Rastafari Bible.pdf`, "_blank")}
+>
+  The Rastafari Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Shorter Bible-(Kent)(1921).pdf`, "_blank")}
+>
+  The Shorter Bible (Kent) (1921)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Syriac New Testament .pdf`, "_blank")}
+>
+  The Syriac New Testament
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Yahwist Bible.pdf`, "_blank")}
+>
+  The Yahwist Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Translation for Translators ( T4T ).pdf`, "_blank")}
+>
+  Translation for Translators (T4T)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Updated Version ( UPDV ).pdf`, "_blank")}
+>
+  Updated Version (UPDV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Holy Bible for ESL Readers (NIrV) .pdf`, "_blank")}
+>
+  The Holy Bible for ESL Readers (NIrV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Holy Bible (Recovery Version ).pdf`, "_blank")}
+>
+  The Holy Bible (Recovery Version)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Orthodox Jewish Bible (OJB).pdf`, "_blank")}
+>
+  The Orthodox Jewish Bible (OJB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The People's New Testament .pdf`, "_blank")}
+>
+  The People's New Testament
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The_Scottish_Paraphrases.pdf`, "_blank")}
+>
+  The Scottish Paraphrases
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The War Bible.pdf`, "_blank")}
+>
+  The War Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/TNIV.pdf`, "_blank")}
+>
+  TNIV
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/TPT - NT_ With Psalms.pdf`, "_blank")}
+>
+  TPT - NT With Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Tree of Life Version (TLV) .pdf`, "_blank")}
+>
+  Tree of Life Version (TLV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Unlocked Dynamic Bible ( UDB ).pdf`, "_blank")}
+>
+  Unlocked Dynamic Bible (UDB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Unlocked Literal Bible (ULB).pdf`, "_blank")}
+>
+  Unlocked Literal Bible (ULB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Updated Brenton Septuagint Bible.pdf`, "_blank")}
+>
+  Updated Brenton Septuagint Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/WEB with Deuterocanon Apocrypha .pdf`, "_blank")}
+>
+  WEB with Deuterocanon Apocrypha
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/World Eng. Bible Deuterocanonical.pdf`, "_blank")}
+>
+  World Eng. Bible Deuterocanonical
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/World English Bible Catholic( WEB ).pdf`, "_blank")}
+>
+  World English Bible Catholic (WEB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/World English Bible ( WEB ).pdf`, "_blank")}
+>
+  World English Bible (WEB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/World Messianic Bible UK.pdf`, "_blank")}
+>
+  World Messianic Bible UK
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/World Messianic Bible ( WMB ).pdf`, "_blank")}
+>
+  World Messianic Bible (WMB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Wycliffe's Bible Modern Spelling .pdf`, "_blank")}
+>
+  Wycliffe's Bible Modern Spelling
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Young's Literal Translation (YLT).pdf`, "_blank")}
+>
+  Young's Literal Translation (YLT)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Wycliffe Bible Enhanced .pdf`, "_blank")}
+>
+  Wycliffe Bible Enhanced
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Wycliffe & Purvey OT.pdf`, "_blank")}
+>
+  Wycliffe & Purvey OT
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Yawist-Bible-OT-Portions 1922.pdf`, "_blank")}
+>
+  Yawist Bible OT Portions 1922
+</button>
+
+<button
+  className="bible-btn pdf-btn"
   onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Worldview Study Bible  ( CSB ).pdf`, "_blank")}
 >
   Worldview Study Bible (CSB)
