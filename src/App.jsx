@@ -2052,6 +2052,118 @@ const internationalEnglishVersionBooks = [
 )}
 
 <button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://docs.google.com/document/d/1qH0-8OICfK7Jh-saaF27V5N1PR_G77oq/edit?usp=drive_link&ouid=100043722794724375991&rtpof=true&sd=true", "_blank")}
+>
+  Children's Story Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQDo5oxIblF2R6S65KqRzOj3AZFcNBYL9gHi8fgTudp8uvE?e=LYyFK0", "_blank")}
+>
+  The Complete British Family Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1e_WE8JXxGYfv5wdLBZuLShtZLzl2AQuf/view?usp=drive_link", "_blank")}
+>
+  The Emphatic Diaglott NT
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/18VLFvxLL-VE7TFtvxQSFE723Y86Ws8_1/view?usp=drive_link", "_blank")}
+>
+  The Holy Bible With The Apocrypha
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQCqfjgmw9pLR5wvrywPvp7LAa-4DbZTvbJHwYyk58LI70A?e=ZnpciM", "_blank")}
+>
+  The Illuminated Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQBAvo1OyhYcRKplCjeTYaQZARFLZzvVExgkel-YlKVmOxo?e=uxfLiA", "_blank")}
+>
+  The Illustrated Bible Story by Story
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1KqiykdnaSblxixty6UZFYpCNNg_vpPEh/view?usp=drive_link", "_blank")}
+>
+  The NET Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1TPRqpheNDwRWyDNprFf5pe1UWtxBka1W/view?usp=sharing", "_blank")}
+>
+  The Parallel Bible 1886
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQCladME6jqISYIjjO44z7YgAcTssLPDy5JvgiJUd1cxoMI?e=PRBJdM", "_blank")}
+>
+  The Prayer Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1Ubgrsw3ObpdGvvG-9bzydEZFrkb_Pcxx/view?usp=drive_link", "_blank")}
+>
+  The Sacred Scriptures
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/16xwuLNttCfxbo00B81HZjZVlMoAEjxj9/view?usp=drive_link", "_blank")}
+>
+  The-Modern-Readers-Bible (MRB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1FkB5uD6yhi_vVsdX6eLy1pIpHozXu5_Y/view?usp=sharing", "_blank")}
+>
+  The Prophets (Lowth) Bible Vol.1-5
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://1drv.ms/b/c/7eb51b35f3576b65/IQB207Q2Q2kRR45GSU3cyKNQAZzF9m_m3i35KLNBx3i9QPw?e=morLd7", "_blank")}
+>
+  Thomas Newberry Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/15nJlsdSasuYC0nlWKMuZIgSNdYAdpGGy/view?usp=drive_link", "_blank")}
+>
+  Thompson Chain Reference Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1js-j-TZTfLcmpCizWkNN8_e_Je8ylke4/view?usp=drive_link", "_blank")}
+>
+  Variorum Teacher's Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/11E5dq_OsIELa_h8qzuKMCUuJjH0EfUCL/view?usp=drive_link", "_blank")}
+>
+  Vulgate Translation
+</button>
+
+<button
     className="bible-btn pdf-btn>Ichthys Translations-OT</button>"
     onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Ichthys Translations-OT.pdf`, "_blank")}
   >
@@ -2078,6 +2190,76 @@ const internationalEnglishVersionBooks = [
     ))}
   </div>
 )}
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Condensed Bible 2004.pdf`, "_blank")}
+>
+  The Condensed Bible 2004
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Holy History 1653.pdf`, "_blank")}
+>
+  The Holy History 1653
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Israelite Samaritan Version.pdf`, "_blank")}
+>
+  The Israelite Samaritan Version
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The New Oxford Annotated Bible.pdf`, "_blank")}
+>
+  The New Oxford Annotated Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Orthodox Study Bible(SAAS).pdf`, "_blank")}
+>
+  The Orthodox Study Bible (SAAS)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The story Bible .pdf`, "_blank")}
+>
+  The Story Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Voice, Compass Bible .pdf`, "_blank")}
+>
+  The Voice, Compass Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Thomson Translation(1808).pdf`, "_blank")}
+>
+  Thomson Translation (1808)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Worldview Study Bible  ( CSB ).pdf`, "_blank")}
+>
+  Worldview Study Bible (CSB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Worchister-Bible-Abriged 1796.pdf`, "_blank")}
+>
+  Worchister Bible Abridged 1796
+</button>
 
 </div>
  
