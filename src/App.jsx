@@ -2506,6 +2506,153 @@ const internationalEnglishVersionBooks = [
   Worchister Bible Abridged 1796
 </button>
 
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/2001_Translation_Bible.docx`, "_blank")}
+>
+  2001 Translation Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Complete Personalize Promise Bible for Men.pdf`, "_blank")}
+>
+  The Complete Personalize Promise Bible for Men
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Dead Sea Scrolls Bible.pdf`, "_blank")}
+>
+  The Dead Sea Scrolls Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Halleluyah Scriptures -matti.pdf`, "_blank")}
+>
+  The Halleluyah Scriptures - Matti
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Holy Bible RCK Cyber Service .pdf`, "_blank")}
+>
+  The Holy Bible RCK Cyber Service
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Holy Piby (the Black mans Bible) .pdf`, "_blank")}
+>
+  The Holy Piby (The Black Man's Bible)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Modern Reader's Bible.pdf`, "_blank")}
+>
+  The Modern Reader's Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The New Jerusalem Bible (NJB).pdf`, "_blank")}
+>
+  The New Jerusalem Bible (NJB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Scriptures 1998-2009 (TS2009).pdf`, "_blank")}
+>
+  The Scriptures 1998-2009 (TS2009)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Wisdom Books_ Job, Proverbs, & Ecclesiastes.pdf`, "_blank")}
+>
+  The Wisdom Books: Job, Proverbs & Ecclesiastes
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Woman’s Bible.pdf`, "_blank")}
+>
+  The Woman's Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Torah- The Five Books of Moses .pdf`, "_blank")}
+>
+  Torah - The Five Books of Moses
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Tyndale 1535.pdf`, "_blank")}
+>
+  Tyndale 1535
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Tyndale Modern Spelling .pdf`, "_blank")}
+>
+  Tyndale Modern Spelling
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Understanding the Bible Through Story .pdf`, "_blank")}
+>
+  Understanding the Bible Through Story
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Updated KJV ( UKJV ).pdf`, "_blank")}
+>
+  Updated KJV (UKJV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Voice in the Wilderness ( VW ).pdf`, "_blank")}
+>
+  Voice in the Wilderness (VW)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/WEB - MP Johnson.pdf`, "_blank")}
+>
+  WEB - MP Johnson
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Webster Bible.pdf`, "_blank")}
+>
+  Webster Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Word on the Street Bible_IntroGen1-3.pdf`, "_blank")}
+>
+  Word on the Street Bible Intro Gen 1-3
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/YAH BIBLE -2009.pdf`, "_blank")}
+>
+  YAH BIBLE - 2009
+</button>
+
 </div>
  
       <h2 className="psalm-title">📖 Psalms</h2>
@@ -2520,6 +2667,7 @@ const internationalEnglishVersionBooks = [
       {version}
     </button>
   ))}
+
 </div>
 
 <h2 className="psalm-title tamil-title">
