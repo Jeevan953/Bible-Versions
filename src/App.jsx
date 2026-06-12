@@ -6,21 +6,6 @@ function App() {
   const bibleVersions = [
     "The Yes Word",
     "Knox Translation",
-    "Lamsa's Bible",
-    "KJV",
-    "NKJV",
-    "ESV",
-    "NLT",
-    "NASB",
-    "RSV",
-    "NRSV",
-    "MSG",
-    "YLT",
-    "Darby",
-    "WEB",
-    "Douay-Rheims",
-    "Geneva Bible",
-    "Wycliffe Bible",
   ];
 
   const TamilVersions = [
@@ -2646,6 +2631,7 @@ const internationalEnglishVersionBooks = [
   Word on the Street Bible Intro Gen 1-3
 </button>
 
+ 
 <button
   className="bible-btn pdf-btn"
   onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/YAH BIBLE -2009.pdf`, "_blank")}
@@ -2667,6 +2653,251 @@ const internationalEnglishVersionBooks = [
       {version}
     </button>
   ))}
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Casual English Bible ( TCEB ).pdf`, "_blank")}
+>
+  The Casual English Bible ( TCEB )
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Knox Translation.pdf`, "_blank")}
+>
+  Knox Translation
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Youth Bible ( NCV ).pdf`, "_blank")}
+>
+  The Youth Bible ( NCV )
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Street Bible- Genesis .pdf`, "_blank")}
+>
+  The Street Bible- Genesis
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Bible Book By Book.pdf`, "_blank")}
+>
+  The Bible Book By Book
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Berkeley Version ( MEB ).pdf`, "_blank")}
+>
+  Berkeley Version ( MEB )
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Wycliffe Bible ( WYC -2001 ).pdf`, "_blank")}
+>
+  Wycliffe Bible ( WYC -2001 )
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Lamsa Bible.pdf`, "_blank")}
+>
+  Lamsa Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/A Paraphrase on the Book of Job.pdf`, "_blank")}
+>
+  A Paraphrase on the Book of Job
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Yes Word - Genesis.pdf`, "_blank")}
+>
+  The Yes Word - Genesis
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Unlocked Literal Bible -Gen- (ULB).pdf`, "_blank")}
+>
+  Unlocked Literal Bible -Gen- (ULB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Unlocked Dynamic Bible ( UDB )1.pdf`, "_blank")}
+>
+  Unlocked Dynamic Bible1 ( UDB )
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Remedy Bible.pdf`, "_blank")}
+>
+  The Remedy Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Clear Word Bible.pdf`, "_blank")}
+>
+  Clear Word Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/2001_Translation_Bible.pdf`, "_blank")}
+>
+  2001 Translation Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Clear Word for kids-a simplified paraphrase.pdf`, "_blank")}
+>
+  Clear Word for Kids - Simplified Paraphrase
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Thomson Translation (Genesis).pdf`, "_blank")}
+>
+  Thomson Translation (Genesis)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Schocken Bible -Genesis.pdf`, "_blank")}
+>
+  The Schocken Bible - Genesis
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Holy Bible -T. Nelson.pdf`, "_blank")}
+>
+  The Holy Bible - T. Nelson
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Exegesis Companion Bible  (ECB).pdf`, "_blank")}
+>
+  Exegesis Companion Bible (ECB)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Unfolding word Literal Text - Gen-(ULT).pdf`, "_blank")}
+>
+  Unfolding Word Literal Text (ULT)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Restoration Edition Scriptures.pdf`, "_blank")}
+>
+  Restoration Edition Scriptures
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Concordant Literal Version (CLV ).pdf`, "_blank")}
+>
+  Concordant Literal Version (CLV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Juvenile Bible.pdf`, "_blank")}
+>
+  The Juvenile Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Complete Tanakh.pdf`, "_blank")}
+>
+  The Complete Tanakh
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Inspired Version- Genesis ( IV ).pdf`, "_blank")}
+>
+  Inspired Version - Genesis (IV)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/English Version For the Deaf.pdf`, "_blank")}
+>
+  English Version For the Deaf
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Inclusive Bible Genesis .pdf`, "_blank")}
+>
+  The Inclusive Bible Genesis
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Jubilee Bible ( JUB ).pdf`, "_blank")}
+>
+  Jubilee Bible ( JUB )
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Old Testament for Everyone.pdf`, "_blank")}
+>
+  The Old Testament for Everyone
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Unfolding word Simplified Text-(UST).pdf`, "_blank")}
+>
+  Unfolding Word Simplified Text (UST)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Book Of Job Paraphrased.pdf`, "_blank")}
+>
+  Book Of Job Paraphrased
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/The Living Bible-Paraphrased.pdf`, "_blank")}
+>
+  The Living Bible - Paraphrased
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Laughing Bird Paraphrased Bible G.pdf`, "_blank")}
+>
+  Laughing Bird Paraphrased Bible G
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Transparent English Bible .pdf`, "_blank")}
+>
+  Transparent English Bible
+</button>
 
 </div>
 
