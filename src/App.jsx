@@ -16,7 +16,6 @@ function App() {
     "Tamil Bible-1860",
     "Tamil Bible-1822",
     "NWT-2013",
-    "IRV-2017",
   ];
 
   const newTestament = [
@@ -3319,6 +3318,213 @@ const internationalEnglishVersionBooks = [
     </p>
   </div>
 )}
+
+
+<div className="button-container">
+  
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1JMlWN0wdV9SKepaeeGLeY-GK4RynyJ29/view?usp=sharing", "_blank")}
+>
+  1914 Bible Bower Version with Centre References
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1jRl4Mg1FOYBOeSXbst3IFYb7PaCOS_DP/view?usp=sharing", "_blank")}
+>
+  1723 Tamil Bible - Ziegenbalg & Benjamin Schultz
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/17q69dw5J77wP1qT9Y_uajvI9mRdsmJOO/view?usp=drive_link", "_blank")}
+>
+  1714 Tamil Bible - Ziegenbalg Version
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1oNWiBE7wdXTwAQnPgoU8eBtWwMQ-3jZk/view?usp=sharing", "_blank")}
+>
+  1822 Tamil Bible - Fabricius Old Testament
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1ZCon02oHg-C3Tlyw5RFutMKRGoRR1RJN/view?usp=sharing", "_blank")}
+>
+  1844 Tamil Bible - Fabricius and Rhenius
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1aiMuz9igB6HKW-X8RF-77MfbpIpbet7b/view?usp=sharing", "_blank")}
+>
+  1840 Tamil Bible - Fabricius Version V2
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1gnB2YZA6TU5aSnrAwSQ2vTZ6rVZGJr_T/view?usp=sharing", "_blank")}
+>
+  பரிசுத்த வேதாகமம் - பழைய தமிழில்
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1Q-wz_O2kZpR2fLv6yb-DFrdXRpE-njfF/view?usp=sharing", "_blank")}
+>
+  1850 பரிசுத்த வேதாகமம் - Percival Version
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1dbm3EgNWp3x1jQ_cWo3ONjZPIadk7zac/view?usp=sharing", "_blank")}
+>
+  1859 Tamil - Matthew
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1QDfuPytK1SvtROzznX9bS0_raZLBBH3q/view?usp=sharing", "_blank")}
+>
+  Tamil Bible - Acts (1859)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1EfkVbz1Mgkwbyd-Hug4fqRcc90cOWbkW/view?usp=sharing", "_blank")}
+>
+  1851 Tamil Matthew
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1e-2_KqOaxmp6Wgi4bNpsqEvrBwsqqrMU/view?usp=sharing", "_blank")}
+>
+  வேதாகமத்தில் புரியாத வார்த்தைகள்
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1huMGMw0wcioyTMd_pE1pPbejIaYC_qrK/view?usp=drive_link", "_blank")}
+>
+  1812 Tamil Bible - Fabricius NT Older Words
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1829-Tamil-Bible-Fabricius-Joshua-to-2nd-Chronicles.pdf`, "_blank")}
+>
+  1829 Tamil Bible - Joshua to 2 Chronicles
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1827-Tamil-Bible-Fabricius-Version-5-Books-of-Moses.pdf`, "_blank")}
+>
+  1827 Tamil Bible - Five Books of Moses
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1836-Tamil-Bible-Rhenius-New-Testament.pdf`, "_blank")}
+>
+  1836 Tamil Bible - Rhenius New Testament
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1859 பழைய தமிழில் புதிய ஏற்பாடு..pdf`, "_blank")}
+>
+  1859 பழைய தமிழில் புதிய ஏற்பாடு
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1845-Tamil-Bible-Gospel-of-Luke.pdf`, "_blank")}
+>
+  1845 Tamil Bible - Gospel of Luke
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1856-Bible-Peter-Percival-Genesis-&-Exodus.pdf`, "_blank")}
+>
+  1856 Peter Percival - Genesis & Exodus
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1857-Veda-Pozhippu-Short-Tamil-Bible-Summary.pdf`, "_blank")}
+>
+  1857 Veda Pozhippu - Tamil Bible Summary
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1841-Tamil-Bible-Book-of-Matthew.pdf`, "_blank")}
+>
+  1841 Tamil Bible - Book of Matthew
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/2021 June TAOVBSI .pdf`, "_blank")}
+>
+  2021 June TAOVBSI
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1840-Tamil-Bible-1st-Samuel.pdf`, "_blank")}
+>
+  1840 Tamil Bible - 1 Samuel
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1841-Tamil-Bible-Book-of-Isaiah.pdf`, "_blank")}
+>
+  1841 Tamil Bible - Book of Isaiah
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1835--Bible-Parallel-English-Book-of-Luke-by-Rhenius.pdf`, "_blank")}
+>
+  1835 Parallel English - Luke by Rhenius
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/2017 IRV Tamil Bible .pdf`, "_blank")}
+>
+  2017 IRV Tamil Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/1836-Bible-Parallel-English-Iraneus-Iyer-Book-of-John.pdf`, "_blank")}
+>
+  1836 Parallel English - John by Iraneus Iyer
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/BIBLE TAMIL  NT WITH PSALMS.pdf`, "_blank")}
+>
+  Bible Tamil NT with Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/2006-NT-Easy-to-Read-Version-WBTC.pdf`, "_blank")}
+>
+  2006 NT Easy-to-Read Version (WBTC)
+</button>
+ </div>
 </div>
 );
 }
