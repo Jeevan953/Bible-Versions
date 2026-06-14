@@ -429,38 +429,51 @@ const internationalEnglishVersionBooks = [
 
 <div className="button-container">
   <button
-    className="bible-btn pdf-btn>ACV</button>"
+    className="bible-btn pdf"
+    title="A Conservative Version"
     onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/ACV.pdf`, "_blank")}
   >
     ACV
   </button>
 
   <button
-    className="bible-btn pdf-btn>AKJV</button>"
+    className="bible-btn pdf-btn"
+     title="American King James Version"
     onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/AKJV.pdf`, "_blank")}
   >
     AKJV
   </button>
 
   <button
-    className="bible-btn pdf-btn>ASV</button>"
+    className="bible-btn pdf-btn"
+    title="American Standard Version"
     onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/ASV.pdf`, "_blank")}
   >
     ASV
   </button>
 
    <button
-    className="bible-btn pdf-btn>AMPC</button>"
+    className="bible-btn pdf-btn"
+    title="Amplified Classic Version"
     onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/AMPC.pdf`, "_blank")}
   >
     AMPC
   </button>
 
+   <button
+    className="bible-btn pdf-btn"
+    title="Amplified Cross-Reference Bible"
+    onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Amplified Bible.pdf`, "_blank")}
+  >
+    Amplified Bible
+  </button>
+
   <button
     className="bible-btn pdf-btn>AAT_1927</button>"
+    title="An American translation-OT-1927"
     onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/AAT-1927.pdf`, "_blank")}
   >
-    AAT-1927
+    AAT
   </button>
 
  <button
