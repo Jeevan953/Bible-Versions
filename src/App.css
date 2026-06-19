@@ -330,10 +330,10 @@ body::after {
 }
 
 .anim-open-wheel::after {
-  content: "★📣★";
+  content: "❇️✴️❇️";
   position: absolute;
   right: -10px;
-  top: 10%;
+  top: 5%;
   transform: translateY(-50%);
   animation: openWheel 1s linear infinite;
 }
@@ -429,4 +429,57 @@ body::after {
   to {
     background-position: 300% center;
   }
+}
+
+.title-frame {
+  width: 70%;
+  max-width: 900px;
+  margin: 20px auto 40px;
+
+  border: 3px solid gold;
+  border-radius: 12px;
+
+  background: linear-gradient(
+    90deg,
+    #001a66,
+    #0b2d91,
+    #1a237e,
+    #0b2d91,
+    #001a66
+  );
+
+  box-shadow:
+    0 0 10px gold,
+    inset 0 0 20px rgba(255,255,255,0.15);
+
+  padding: 10px;
+  position: relative;
+}
+
+.title-frame::before,
+.title-frame::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gold;
+  font-size: 24px;
+}
+
+.title-frame::before {
+  left: 15px;
+}
+
+.title-frame::after {
+  right: 15px;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  color: gold;
+  font-size: 3rem;
+  text-shadow:
+    0 0 10px gold,
+    0 0 20px gold;
 }

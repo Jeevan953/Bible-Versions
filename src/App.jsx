@@ -419,9 +419,10 @@ const internationalEnglishVersionBooks = [
 
   return (
     <div className="app">
-     <h1 className="title">Bible Versions</h1>
-<h1 className={getWordClass("Bible Versions")}>
-  </h1>
+    <div className="title-frame">
+    <h1 className="title">Bible Versions</h1>
+    <h1 className={getWordClass("Bible Versions")}></h1> 
+</div>
 
 <h2 className="pdf-title">
   📚 <span className="pdf-title-text">PDF Bibles</span>
@@ -2909,6 +2910,111 @@ const internationalEnglishVersionBooks = [
   onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Transparent English Bible .pdf`, "_blank")}
 >
   Transparent English Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1CzBV9QGwMbr0VzlXQ8IcH5t2HN3TmpA0/view?usp=sharing", "_blank")}
+>
+  Book of Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1bIskIbREEbbn5mgIPfyQ8l0Te69QmM-a/view?usp=sharing", "_blank")}
+>
+  Psalms by Digby Wrangham
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1h8HHCsgODBSJyVpFtpoomXA2hO87VOyn/view?usp=sharing", "_blank")}
+>
+  Psalms by Most Eminent English Poets
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1WWKuL5G9wFGu_qlkHBUIcIzFUeG0Cb2R/view?usp=sharing", "_blank")}
+>
+  Clavis Bibliorum
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open("https://drive.google.com/file/d/1kpSVdRENBUQIPh3h0hsQOjMhFc2k-iYS/view?usp=sharing", "_blank")}
+>
+  Bay Psalm (1640)
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Scottish metrical Psalter.pdf`, "_blank")}
+>
+  Scottish Metrical Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Hexaplar psalter.pdf`, "_blank")}
+>
+  Hexaplar Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/psalter withmusic.pdf`, "_blank")}
+>
+  Psalter with Music
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Rhemes and doway.pdf`, "_blank")}
+>
+  Rhemes and Doway
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms - Brady Nicole’s.pdf`, "_blank")}
+>
+  Psalms – Brady Nicole's
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Presbyterian book of Psalms.pdf`, "_blank")}
+>
+  Presbyterian Book of Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Hymns of christian life.pdf`, "_blank")}
+>
+  Hymns of Christian Life
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/New Version of Psalms.pdf`, "_blank")}
+>
+  New Version of Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms Paraphrased- J Barclay.pdf`, "_blank")}
+>
+  Psalms Paraphrased – J. Barclay
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalm by king DD.pdf`, "_blank")}
+>
+  Psalm by King DD
 </button>
 
 </div>
