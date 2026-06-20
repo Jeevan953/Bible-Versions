@@ -3017,6 +3017,118 @@ const internationalEnglishVersionBooks = [
   Psalm by King DD
 </button>
 
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms-Brady & Tate.pdf`, "_blank")}
+>
+  Psalms - Brady & Tate
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms-John Playford.pdf`, "_blank")}
+>
+  Psalms - John Playford
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/The Book of Psalms-JN Coleman.pdf`, "_blank")}
+>
+  The Book of Psalms - J.N. Coleman
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Palter with music.pdf`, "_blank")}
+>
+  Palter with Music
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Whole book of psalms.pdf`, "_blank")}
+>
+  Whole Book of Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms-J A Alex.pdf`, "_blank")}
+>
+  Psalms - J. A. Alex
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms in English Verse.pdf`, "_blank")}
+>
+  Psalms in English Verse
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Version of paraphrase Merric.pdf`, "_blank")}
+>
+  Version of Paraphrase - Merrick
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms Reformed Protestant .pdf`, "_blank")}
+>
+  Psalms Reformed Protestant
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms translated- J Merrick.pdf`, "_blank")}
+>
+  Psalms Translated - J. Merrick
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Parallel psalter.pdf`, "_blank")}
+>
+  Parallel Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Companion Psalter.pdf`, "_blank")}
+>
+  Companion Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Power-Of-The-Psalms Anna Riva.pdf`, "_blank")}
+>
+  Power of the Psalms - Anna Riva
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Whole book of psalter-Sternhold.pdf`, "_blank")}
+>
+  Whole Book of Psalter - Sternhold
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms New Translation-Johnwitt.pdf`, "_blank")}
+>
+  Psalms New Translation - John Witt
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms new translation- J De Witt.pdf`, "_blank")}
+>
+  Psalms New Translation - J. De Witt
+</button>
+
 </div>
 
 <h2 className="psalm-title tamil-title">
