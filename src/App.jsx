@@ -3129,6 +3129,181 @@ const internationalEnglishVersionBooks = [
   Psalms New Translation - J. De Witt
 </button>
 
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Ancient Psalms.pdf`, "_blank")}
+>
+  Ancient Psalms
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Book of psalms.pdf`, "_blank")}
+>
+  Book of Psalms
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Book of psalms  marsh Edward.pdf`, "_blank")}
+>
+  Book of Psalms - Marsh Edward
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Children’s Psalm Book.pdf`, "_blank")}
+>
+  Children's Psalm Book
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Literal Translation of Psalms.pdf`, "_blank")}
+>
+  Literal Translation of Psalms
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/MacLaren_Psalms_ Expositors Bible.pdf`, "_blank")}
+>
+  MacLaren Psalms - Expositor's Bible
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Palter in meter.pdf`, "_blank")}
+>
+  Palter in Meter
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/People's Psalter.pdf`, "_blank")}
+>
+  People's Psalter
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalmists of Britain.pdf`, "_blank")}
+>
+  Psalmists of Britain
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms-Abner Jones.pdf`, "_blank")}
+>
+  Psalms - Abner Jones
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms by Robert Boswell ll.pdf`, "_blank")}
+>
+  Psalms - Robert Boswell II
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms-DAVID BATTEN .pdf`, "_blank")}
+>
+  Psalms - David Batten
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms- Maclaren.pdf`, "_blank")}
+>
+  Psalms - MacLaren
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms-McLaren Donald Cam.pdf`, "_blank")}
+>
+  Psalms - McLaren Donald Cam
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms new metrical.pdf`, "_blank")}
+>
+  Psalms New Metrical
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms of david - J Minter.pdf`, "_blank")}
+>
+  Psalms of David - J. Minter
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms of Isaac watt.pdf`, "_blank")}
+>
+  Psalms of Isaac Watt
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms Paraphrased -J Barclay.pdf`, "_blank")}
+>
+  Psalms Paraphrased - J. Barclay
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms TK Chyne.pdf`, "_blank")}
+>
+  Psalms - T. K. Chyne
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psaltar.pdf`, "_blank")}
+>
+  Psaltar
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalter Canticles.pdf`, "_blank")}
+>
+  Psalter Canticles
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/The Book of psalms Various .pdf`, "_blank")}
+>
+  The Book of Psalms - Various
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/The Hebrew Psalter .pdf`, "_blank")}
+>
+  The Hebrew Psalter
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/The Psalter_(1912).pdf`, "_blank")}
+>
+  The Psalter (1912)
+</button>
+
+<button
+  className="bible-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/The Wesleyan Psalter.pdf`, "_blank")}
+>
+  The Wesleyan Psalter
+</button>
+
 </div>
 
 <h2 className="psalm-title tamil-title">
