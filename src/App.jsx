@@ -419,8 +419,15 @@ const internationalEnglishVersionBooks = [
 
   return (
     <div className="app">
-    <div className="title-frame">
-    <h1 className="title">Bible Versions</h1>
+    <div className="title-frame"> 
+    <h1 className="title"><span classname="title">Bible Versions</span></h1>
+    <p className="title-verse">
+    O come, let us worship and bow down: let us kneel before the Lord our maker.
+  </p>
+
+  <p className="title-reference">
+    — Psalm 95:6
+  </p>
     <h1 className={getWordClass("Bible Versions")}></h1> 
 </div>
 
@@ -2653,8 +2660,12 @@ const internationalEnglishVersionBooks = [
 </button>
 
 </div>
- 
-      <h2 className="psalm-title">📖 Psalms</h2>
+
+<h2 className="psalm-title">
+  <span className="psalm-icon">📖</span>
+  <span className="psalm-text">
+    <span className="illuminated-p">P</span>salms</span>
+</h2>
 
 <div className="button-container">
   {bibleVersions.map((version, index) => (
@@ -3304,10 +3315,157 @@ const internationalEnglishVersionBooks = [
   The Wesleyan Psalter
 </button>
 
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/A New Rendering of Psalms.pdf`, "_blank")}
+>
+  A New Rendering of Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Cathedral Psalter.pdf`, "_blank")}
+>
+  Cathedral Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/New American Psalter.pdf`, "_blank")}
+>
+  New American Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/New Metrical Psalter.pdf`, "_blank")}
+>
+  New Metrical Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/New version of psalms.pdf`, "_blank")}
+>
+  New Version of Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Peerless Poems of David.pdf`, "_blank")}
+>
+  Peerless Poems of David
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms - Alexander Mack.pdf`, "_blank")}
+>
+  Psalms - Alexander Mack
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms - Brady & Tate.pdf`, "_blank")}
+>
+  Psalms - Brady & Tate
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms - Brady & Tate 1792.pdf`, "_blank")}
+>
+  Psalms - Brady & Tate 1792
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms-Breckell, John, Enfield, William.pdf`, "_blank")}
+>
+  Psalms-Breckell, John, Enfield, William
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms-Buchanans.pdf`, "_blank")}
+>
+  Psalms-Buchanans
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms in Metre-Cayley.pdf`, "_blank")}
+>
+  Psalms in Metre-Cayley
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms Newly Parapharsed.pdf`, "_blank")}
+>
+  Psalms Newly Parapharsed
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms of David.pdf`, "_blank")}
+>
+  Psalms of David
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms of Judah.pdf`, "_blank")}
+>
+  Psalms of Judah
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalter by trower.pdf`, "_blank")}
+>
+  Psalter by Trower
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalter with responsive reading .pdf`, "_blank")}
+>
+  Psalter with Responsive Reading
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Scottish-Metrical-Psalter.pdf`, "_blank")}
+>
+  Scottish Metrical Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/The_New_Metrical_Version_of_the_PSALMS.pdf`, "_blank")}
+>
+  The New Metrical Version of the Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Treasury of David-Spurgeon CH.pdf`, "_blank")}
+>
+  Treasury of David - Spurgeon CH
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Whole book of psalms into Meter.pdf`, "_blank")}
+>
+  Whole Book of Psalms into Meter
+</button>
+
 </div>
 
 <h2 className="psalm-title tamil-title">
-  📖 Psalms-Tamil
+  📖  <span className="psalm-tamil-title">Psalms Tamil</span>
 </h2>
 
 <div className="button-container">
