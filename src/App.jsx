@@ -3462,6 +3462,181 @@ const internationalEnglishVersionBooks = [
   Whole Book of Psalms into Meter
 </button>
 
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/A New Metrical Version-Basil wood.pdf`, "_blank")}
+>
+  A New Metrical Version-Basil Wood
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/A Selection of Psalms.pdf`, "_blank")}
+>
+  A Selection of Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Augustine-Psalms.pdf`, "_blank")}
+>
+  Augustine-Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Book of psalms - Lowland.pdf`, "_blank")}
+>
+  Book of Psalms - Lowland
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Christian Psalter.pdf`, "_blank")}
+>
+  Christian Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Ferial psalter.pdf`, "_blank")}
+>
+  Ferial Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Free Rhythm Psalter.pdf`, "_blank")}
+>
+  Free Rhythm Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Lyrics from the Psalter.pdf`, "_blank")}
+>
+  Lyrics from the Psalter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Metrical version.pdf`, "_blank")}
+>
+  Metrical Version
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Palter of the Great Bible.pdf`, "_blank")}
+>
+  Palter of the Great Bible
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Palter or Psalms.pdf`, "_blank")}
+>
+  Palter or Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Portions of Psalms-Charles H.pdf`, "_blank")}
+>
+  Portions of Psalms - Charles H
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Portions of Psalms-Rusling.pdf`, "_blank")}
+>
+  Portions of Psalms - Rusling
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Praise songs of Israel .pdf`, "_blank")}
+>
+  Praise Songs of Israel
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms - Miles Smyth.pdf`, "_blank")}
+>
+  Psalms - Miles Smyth
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms-New Metrical Version.pdf`, "_blank")}
+>
+  Psalms-New Metrical Version
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms of David in Meter.pdf`, "_blank")}
+>
+  Psalms of David in Meter
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms - Paraphrased.pdf`, "_blank")}
+>
+  Psalms - Paraphrased
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalter - kennady.pdf`, "_blank")}
+>
+  Psalter - Kennady
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalter Noted.pdf`, "_blank")}
+>
+  Psalter Noted
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalter or book of Psalms.pdf`, "_blank")}
+>
+  Psalter or Book of Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/The Book of Prayers & Psalms.pdf`, "_blank")}
+>
+  The Book of Prayers & Psalms
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/The Daily News StJohns.pdf`, "_blank")}
+>
+  The Daily News StJohns
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/The metrical Psalms & Paraphrases.pdf`, "_blank")}
+>
+  The Metrical Psalms & Paraphrases
+</button>
+
+<button
+  className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/The Psalms-(DeWitt)-Translation.pdf`, "_blank")}
+>
+  The Psalms (DeWitt) Translation
+</button>
+
 </div>
 
 <h2 className="psalm-title tamil-title">
