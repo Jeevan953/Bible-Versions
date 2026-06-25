@@ -1,4 +1,4 @@
-  // src/App.jsx
+    // src/App.jsx
 import "./App.css";
 import { useState } from "react";
 
@@ -7,6 +7,58 @@ function App() {
     "The Yes Word",
     "Knox Translation",
   ];
+
+const paraphraseDivinePoemsBooks = [
+  { name: "📜 Part 1", file: "Part_1.pdf" },
+  { name: "📖 Part 2", file: "Part_2.pdf" },
+  { name: "✍️ Part 3", file: "Part_3.pdf" },
+  { name: "✨ Part 4", file: "Part_4.pdf" },
+];
+
+const bookOfPsalmsInMeterBooks = [
+  { name: "📕 Part 1", file: "Part_1.pdf" },
+  { name: "📗 Part 2", file: "Part_2.pdf" },
+  { name: "📘 Part 3", file: "Part_3.pdf" },
+  { name: "📙 Part 4", file: "Part_4.pdf" },
+];
+
+const psalmSingersJewelBooks = [
+  { name: "💎 Part 1", file: "Part_1.pdf" },
+  { name: "💍 Part 2", file: "Part_2.pdf" },
+  { name: "✨ Part 3", file: "Part_3.pdf" },
+  { name: "👑 Part 4", file: "Part_4.pdf" },
+];
+
+const devotionsBooks = [
+  { name: "Part 1", file: "Part_1.pdf" },
+  { name: "Part 2", file: "Part_2.pdf" },
+  { name: "Part 3", file: "Part_3.pdf" },
+];
+
+const bishopsBible1572Books = [
+  { name: "📜 Part 1", file: "Part_1.pdf" },
+  { name: "📖 Part 2", file: "Part_2.pdf" },
+];
+
+const psalms1765Books = [
+  { name: "🌙 Part 1", file: "Part_1.pdf" },
+  { name: "⭐ Part 2", file: "Part_2.pdf" },
+];
+
+const psalmsDavid1689Books = [
+  { name: "⚓ Part 1", file: "Part_1.pdf" },
+  { name: "🦋 Part 2", file: "Part_2.pdf" },
+];
+
+const psalmsParaphrasedVerseBooks = [
+  { name: "🌿 Part 1", file: "Part_1.pdf" },
+  { name: "🔥 Part 2", file: "Part_2.pdf" },
+];
+
+const psalterDavidBooks = [
+  { name: "👑 Part 1", file: "Part_1.pdf" },
+  { name: "🕊️ Part 2", file: "Part_2.pdf" },
+];
 
   const TamilVersions = [
     "BSI",
@@ -415,7 +467,15 @@ const internationalEnglishVersionBooks = [
   const [showHaydockBible1848, setShowHaydockBible1848] = useState(false);
   const [showPictorialBible1861, setShowPictorialBible1861] = useState(false);
   const [showInternationalEnglishVersion, setShowInternationalEnglishVersion] = useState(false);
-
+  const [showParaphraseDivinePoems, setShowParaphraseDivinePoems] = useState(false);
+  const [showBookOfPsalmsInMeter, setShowBookOfPsalmsInMeter] = useState(false);
+  const [showPsalmSingersJewel, setShowPsalmSingersJewel] = useState(false);
+  const [showDevotions, setShowDevotions] = useState(false);
+  const [showBishopsBible1572, setShowBishopsBible1572] = useState(false);
+  const [showPsalms1765, setShowPsalms1765] = useState(false);
+  const [showPsalmsDavid1689, setShowPsalmsDavid1689] = useState(false);
+  const [showPsalmsParaphrasedVerse, setShowPsalmsParaphrasedVerse] = useState(false);
+  const [showPsalterDavid, setShowPsalterDavid] = useState(false);
 
   return (
     <div className="app">
@@ -695,6 +755,32 @@ const internationalEnglishVersionBooks = [
   >
     Bible in Poem
   </button>
+
+<button
+  className="bible-btn"
+  onClick={() => setShowBishopsBible1572(!showBishopsBible1572)}
+>
+  Bishop's Bible 1572
+</button>
+
+{showBishopsBible1572 && (
+  <div className="books-menu">
+    {bishopsBible1572Books.map((book, index) => (
+      <button
+        key={book.name}
+        className={`bishop-part-${index + 1}`}
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Psalms/Bishop's Bible 1572/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
 
  <button
     className="bible-btn pdf-btn>Brenton Septuagint Translation</button>"
@@ -3365,6 +3451,112 @@ const internationalEnglishVersionBooks = [
 </button>
 
 <button
+  className="bible-btn"
+  onClick={() =>
+    setShowPsalmsParaphrasedVerse(!showPsalmsParaphrasedVerse)
+  }
+>
+  Psalms Paraphrased in Verse
+</button>
+
+{showPsalmsParaphrasedVerse && (
+  <div className="books-menu">
+    {psalmsParaphrasedVerseBooks.map((book, index) => (
+      <button
+        key={book.name}
+        className={`paraphraseverse-part-${index + 1}`}
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Psalms/Psalms Paraphrased in verse/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
+  className="bible-btn"
+  onClick={() => setShowPsalterDavid(!showPsalterDavid)}
+>
+  The Psalter of David
+</button>
+
+{showPsalterDavid && (
+  <div className="books-menu">
+    {psalterDavidBooks.map((book, index) => (
+      <button
+        key={book.name}
+        className={`psalterdavid-part-${index + 1}`}
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Psalms/The Psalter of David/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
+  className="bible-btn"
+  onClick={() => setShowPsalmsDavid1689(!showPsalmsDavid1689)}
+>
+  Psalms of David in Meter 1689
+</button>
+
+{showPsalmsDavid1689 && (
+  <div className="books-menu">
+    {psalmsDavid1689Books.map((book, index) => (
+      <button
+        key={book.name}
+        className={`meter1689-part-${index + 1}`}
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Psalms/Psalms of David in Meter 1689/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
+  className="bible-btn"
+  onClick={() => setShowPsalms1765(!showPsalms1765)}
+>
+  Psalms - 1765
+</button>
+
+{showPsalms1765 && (
+  <div className="books-menu">
+    {psalms1765Books.map((book, index) => (
+      <button
+        key={book.name}
+        className={`ps1765-part-${index + 1}`}
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Psalms/Psalms - 1765/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
   className="bible-btn pdf-btn"
   onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms - Brady & Tate.pdf`, "_blank")}
 >
@@ -3397,6 +3589,33 @@ const internationalEnglishVersionBooks = [
   onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms in Metre-Cayley.pdf`, "_blank")}
 >
   Psalms in Metre-Cayley
+</button>
+
+<button
+  className="concordance-btn"
+  onClick={() =>
+    window.open(
+      `${import.meta.env.BASE_URL}pdfs/Psalms/A-brief-Concordance to the Bible.pdf`, "_blank")}
+>
+  📚 A Brief Concordance to the Bible
+</button>
+
+<button
+  className="meter1654-btn"
+  onClick={() =>
+    window.open(
+      `${import.meta.env.BASE_URL}pdfs/Psalms/Psalms in meter-1654.pdf`, "_blank")}
+>
+  🎵 Psalms in Meter (1654)
+</button>
+
+<button
+  className="wholepsalms-btn"
+  onClick={() =>
+    window.open(
+      `${import.meta.env.BASE_URL}pdfs/Psalms/The whole Book of Psalms in Meter.pdf`, "_blank")}
+>
+  👑 The Whole Book of Psalms in Meter
 </button>
 
 <button
@@ -3881,6 +4100,114 @@ const internationalEnglishVersionBooks = [
 >
   The Psalter (1874)
 </button>
+
+ <button
+  className="bible-btn"
+  onClick={() => setShowParaphraseDivinePoems(!showParaphraseDivinePoems)}
+>
+  A Paraphrase upon the Divine Poems
+</button>
+
+  {showParaphraseDivinePoems && (
+  <div className="books-menu">
+    {paraphraseDivinePoemsBooks.map((book, index) => (
+      <button
+        key={book.name}
+        className={`bible-btn paraphrase-btn part-${index + 1}`}
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Psalms/A Paraphrase upon the Divine Poems/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
+  className="bible-btn"
+  onClick={() =>
+    setShowBookOfPsalmsInMeter(!showBookOfPsalmsInMeter)
+  }
+>
+  Book of Psalms in Meter
+</button>
+
+{showBookOfPsalmsInMeter && (
+  <div className="books-menu">
+    {bookOfPsalmsInMeterBooks.map((book, index) => (
+      <button
+        key={book.name}
+        className={`bible-btn paraphrase-btn part-${index + 1}`}
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Psalms/Book of Psalms in Meter/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
+  className="bible-btn"
+  onClick={() =>
+    setShowPsalmSingersJewel(!showPsalmSingersJewel)
+  }
+>
+  The Psalm Singers Jewel
+</button>
+
+{showPsalmSingersJewel && (
+  <div className="books-menu">
+    {psalmSingersJewelBooks.map((book, index) => (
+      <button
+        key={book.name}
+        className={`bible-btn paraphrase-btn part-${index + 1}`}
+        onClick={() =>
+          window.open(
+            `${import.meta.env.BASE_URL}pdfs/Psalms/The Psalm Singers Jewel/${book.file}`,
+            "_blank"
+          )
+        }
+      >
+        {book.name}
+      </button>
+    ))}
+  </div>
+)}
+
+<button
+  className="bible-btn"
+  onClick={() => setShowDevotions(!showDevotions)}
+>
+  Psalter of David Devotions
+</button>
+
+  {showDevotions && (
+  <div className="books-menu">
+  {devotionsBooks.map((book, index) => (
+  <button
+    key={book.name}
+    className={`devotion-part-${index + 1}`}
+    onClick={() =>
+      window.open(
+        `${import.meta.env.BASE_URL}pdfs/Psalms/Psalter of David whereunto are Devotions/${book.file}`,
+        "_blank"
+      )
+    }
+  >
+    {book.name}
+  </button>
+))}
+  </div>
+)}
 
 </div>
 

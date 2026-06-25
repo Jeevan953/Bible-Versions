@@ -1,4 +1,4 @@
- /* src/App.css */
+   /* src/App.css */
 @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 body {
@@ -56,9 +56,10 @@ font-family: "UnifrakturCook", cursive;
   letter-spacing: 4px;
 }
 
-.illuminated-p {
+.illuminated-p, .illuminated-v {
+  font-family: "Pirata One", cursive;
   color: gold;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-shadow:
     0 0 5px gold;
 }
@@ -536,4 +537,169 @@ body::after {
   text-shadow:
     0 0 10px gold,
     0 0 20px gold;
+}
+
+.paraphrase-btn.part-1 {
+  background: linear-gradient(135deg, #8b0000, #d4af37);
+}
+
+.paraphrase-btn.part-2 {
+  background: linear-gradient(135deg, #006400, #c0c000);
+}
+
+.paraphrase-btn.part-3 {
+  background: linear-gradient(135deg, #00008b, #87ceeb);
+}
+
+.paraphrase-btn.part-4 {
+  background: linear-gradient(135deg, #4b0082, #ff69b4);
+}
+
+.books-menu {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.paraphrase-btn {
+  font-weight: bold;
+  width: 80px;
+  min-height: 50px;
+  font-size: 14px;
+  border: 2px solid rgba(255,255,255,0.4);
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  transition: all 0.3s ease;
+}
+
+ .devotion-part-1 {
+  background: linear-gradient(135deg, #ff8c00, #ff4500);
+}
+
+.devotion-part-2 {
+  background: linear-gradient(135deg, #32cd32, #228b22);
+}
+
+.devotion-part-3 {
+  background: linear-gradient(135deg, #00bfff, #4169e1);
+}
+ 
+.devotion-part-1,
+.devotion-part-2,
+.devotion-part-3 {
+  width: 45px;
+  height: 100px;
+  flex-wrap: nowrap;
+}
+
+.bishop-part-1 {
+  background: linear-gradient(135deg, #ff8c00, #ffd700);
+  color: white;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 4px;
+}
+
+.bishop-part-2 {
+  background: linear-gradient(135deg, #228b22, #7fff00);
+  color: white;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 4px;
+}
+
+.ps1765-part-1 {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 4px;
+  border: 2px solid #a78bfa;
+}
+
+.ps1765-part-2 {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 4px;
+  border: 2px solid #ff9a8b;
+}
+
+.meter1689-part-1 {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  border: 2px solid #87cefa;
+  border-radius: 14px;
+  padding: 10px 16px;
+  margin: 4px;
+  box-shadow: 0 0 10px rgba(0, 114, 255, 0.5);
+}
+
+.meter1689-part-2 {
+  background: linear-gradient(135deg, #ff00cc, #3333ff);
+  color: white;
+  border: 2px solid #da70d6;
+  border-radius: 14px;
+  padding: 10px 16px;
+  margin: 4px;
+  box-shadow: 0 0 10px rgba(255, 0, 204, 0.5);
+}
+
+.paraphraseverse-part-1 {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+  color: white;
+  border: 2px solid #c8ff8c;
+  border-radius: 14px;
+  padding: 10px 16px;
+  margin: 4px;
+  font-weight: bold;
+}
+
+.paraphraseverse-part-2 {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: white;
+  border: 2px solid #ff9eb5;
+  border-radius: 14px;
+  padding: 10px 16px;
+  margin: 4px;
+  font-weight: bold;
+}
+
+.psalterdavid-part-1 {
+  background: linear-gradient(135deg, #b8860b, #ffd700);
+  color: white;
+  border: 2px solid #fff4a3;
+  border-radius: 14px;
+  padding: 10px 16px;
+  margin: 4px;
+  font-weight: bold;
+}
+
+.psalterdavid-part-2 {
+  background: linear-gradient(135deg, #483d8b, #9370db);
+  color: white;
+  border: 2px solid #d8bfff;
+  border-radius: 14px;
+  padding: 10px 16px;
+  margin: 4px;
+  font-weight: bold;
+}
+
+.concordance-btn {
+  background: linear-gradient(135deg, #ff6b6b, #ffa502);
+  color: white;
+  font-weight: bold;
+}
+
+.meter1654-btn {
+  background: linear-gradient(135deg, #20bf55, #01baef);
+  color: white;
+  font-weight: bold;
+}
+
+.wholepsalms-btn {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  font-weight: bold;
 }
