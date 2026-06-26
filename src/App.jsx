@@ -3942,6 +3942,13 @@ const internationalEnglishVersionBooks = [
 
 <button
   className="bible-btn pdf-btn"
+  onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Nyangumarta Psalms.pdf`, "_blank")}
+>
+  Nyangumarta Psalms.pdf
+</button>
+
+<button
+  className="bible-btn pdf-btn"
   onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/Psalms/Psalms.pdf`, "_blank")}
 >
   Psalms
